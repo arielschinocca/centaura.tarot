@@ -350,6 +350,11 @@ button:hover {
     flex: 0 0 auto;
 }
 
+.carousel-item img{
+    width: 500px;
+    border: 2px solid black;
+}
+
 #prev, #next {
     cursor: pointer;
     position: absolute;
@@ -511,6 +516,10 @@ button:hover {
     }
     .container {
         max-width: 301px;
+    }
+    .carousel-item img{
+        width: 250px;
+        border: 2px solid black;
     }
 
 }
