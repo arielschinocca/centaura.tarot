@@ -522,8 +522,8 @@ button:hover {
         max-width: 301px;
     }
     .carousel-item img{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border: 2px solid black;
     }
 
