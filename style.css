@@ -397,6 +397,10 @@ button:hover {
 .sobremi2 .contenido-seccion2 h3{
     text-transform: uppercase;
     font-size: 30px;
+    border: 3px solid black;
+    background-color: #dc07f8;
+    max-width: 1000px;
+
 }
 .sobremi2 .contenido-seccion2 .especial2{
     color: #830294;
