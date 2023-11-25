@@ -117,14 +117,8 @@ html{
     top: -100px;
     transform: translateX(-50%);
 }
-/*PORQUE ELEGI ESTE CAMINO*/
-.titulo-seccion{
-    font-family: "Yellowtail";
-    font-size: 1.5rem;
-}
 
-
-/*SECCION SOBRE MI min */
+/*SECCION SOBRE MI CAMINO */
 .sobremicamino{
     background-color: rgb(97, 6, 97);
     padding: 140px 0 100px 0;
@@ -134,6 +128,8 @@ html{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
+    border: 2px solid palevioletred;
+    border-radius: 2%;
 }
 .sobremicamino .contenido-seccion2 h3{
     text-transform: uppercase;
@@ -144,17 +140,33 @@ html{
     font-weight: bold;
     margin-top: 15px;
 }
+.sobremicamino .contenido-seccion2 .especial2-1{
+    color: #ee5ca5;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.sobremicamino .contenido-seccion2 .especial2-2{
+    color: #892be7;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
 .sobremicamino .contenido-seccion2 p{
     max-width: 900px;
     margin: auto;
     color: #c0bebe;
     justify-content: center;
+    overflow: hidden;
+    width: auto;
+    display: inline-block;
 }
+
 /*estilos generales*/
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
 }
+
 /*SECCION SOBRE MI min */
 .sobremi{
     background-color: rgb(97, 6, 97);
@@ -202,6 +214,7 @@ html{
     font-weight: bold;
     margin: 8px 0;
 }
+
 /* SECCION HABILIDADES*/
 .habilidades{
     padding: 150px 0 150px 0;
@@ -307,6 +320,7 @@ html{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
+
 
 /*SECCCION FORMULARIO*/
 .container {
