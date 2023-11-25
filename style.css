@@ -263,9 +263,13 @@ html{
 /* SECCION RESUMEN*/
 
 .resumen{
-    background-color: black;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/imgTarot3.jpg");
     padding: 140px 0 100px 0;
     text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 .resumen .contenido-seccion{
     max-width: 1000px;
@@ -427,13 +431,16 @@ button:hover {
 }
 
 .sobremi2{
-    background-image:url(./img/imgTarot5.jpg);
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/imgTarot3.jpg");
     padding: 140px 0 100px 0;
     text-align: center;
     background-size: cover;
-    padding: 150px 0 150px 0;
-    text-align: center;
     background-attachment: fixed;
+    background-position: center;
+    padding: 140px 0 100px 0;
+    text-align: center;
+    padding: 150px 0 150px 0;
     
 }
 .sobremi2 .contenido-seccion2{

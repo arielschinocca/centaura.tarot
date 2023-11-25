@@ -21,7 +21,6 @@ for(var x = 0; x <links.length;x++){
 }
 
 
-
 //carrousel de fotos
 
 let currentIndex = 0;
