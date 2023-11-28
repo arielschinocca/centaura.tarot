@@ -11,6 +11,7 @@ html{
 }
 
 /*Seccion inicio*/
+
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/imgTarot6.jpg");
@@ -29,6 +30,7 @@ html{
 }
 
 /*menu lateral*/
+
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
@@ -46,7 +48,9 @@ html{
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 /* ****** */ 
+
 .inicio .contenido-seccion header .logo{
     font-weight: bold;
     font-size: 2.5rem;
@@ -119,6 +123,7 @@ html{
 }
 
 /*SECCION SOBRE MI CAMINO */
+
 .sobremicamino{
     background-color: black;
     padding: 140px 0 100px 0;
@@ -162,7 +167,54 @@ html{
     display: inline-block;
 }
 
+/* SECCION HABILIDADES*/
+.habilidades{
+    padding: 250px 0 250px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/ojoColores.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #f8f5f5;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+
 /*estilos generales*/
+
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 50px;
@@ -256,51 +308,6 @@ img {
     margin-right: 10px;
 }
 
-/* SECCION HABILIDADES*/
-.habilidades{
-    padding: 250px 0 250px 0;
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/ojoColores.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #fff;
-}
-.habilidades .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.habilidades .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-}
-.habilidades .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.habilidades .contenido-seccion .fila .col{
-    width: 47%;
-    text-align: left;
-}
-.habilidades .contenido-seccion .fila .col .cont-barra{
-    display: flex;
-    align-items: center;
-}
-.habilidades .contenido-seccion .barra{
-    display: flex;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-.habilidades .contenido-seccion .barra .e{
-    background-color: #f8f5f5;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
 /* SECCION RESUMEN*/
 
 .resumen{
@@ -367,65 +374,8 @@ img {
 }
 
 
-/*SECCCION FORMULARIO*/
-.container {
-    background-color: #c014c0;
-    max-width: 500px;
-    margin: auto;
-    padding: 0 10px;
-    padding: 20px;
-    border-radius: 8px;
-    border: 2px solid black;
-    box-shadow: 0 0 10px rgba(243, 234, 234, 0.1);
-}
-
-.container h2{
-    font-size: 50px;
-    margin-top: auto;
-}
-
-.container label{
-    font-size: 30px;
-    font-weight: 900;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-
-label {
-    margin-bottom: 8px;
-    margin: 10px;
-}
-
-input,
-textarea {
-    padding: 20px;
-    margin-bottom: 16px;
-    border: 1px solid black;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #850870;
-    color: black;
-    padding: 45px;
-    border: 2px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: 900;
-    font-size: 25px;
-}
-
-button:hover {
-    background-color: #a04560;
-}
-
 /* SECCION CERTIFICACIONES/CURSO* CARROUSEL*/
+
 #carousel-container {
     width: 100%;
     margin: auto;
@@ -539,6 +489,7 @@ button:hover {
 }
 
 /* SECCION CONTACTO*/
+
 .contacto{
     background-color: #202020;
     padding: 140px 0 100px 0;
