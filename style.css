@@ -120,7 +120,7 @@ html{
 
 /*SECCION SOBRE MI CAMINO */
 .sobremicamino{
-    background-color: rgb(97, 6, 97);
+    background-color: black;
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -128,7 +128,7 @@ html{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid palevioletred;
+    border: 2px solid rgb(160, 122, 26);
     border-radius: 2%;
 }
 .sobremicamino .contenido-seccion2 h3{
