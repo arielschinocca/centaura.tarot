@@ -223,6 +223,39 @@ html{
     margin: 8px 0;
 }
 
+/*GALERIA DE FOTOS*/
+
+.galeriaFondo{
+    padding: 250px 0 250px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url("img/imgTarot5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff;
+}
+.galeriaFotos{
+    background-color:  rgb(97, 6, 97);
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.pareja {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
 /* SECCION HABILIDADES*/
 .habilidades{
     padding: 250px 0 250px 0;
@@ -591,6 +624,9 @@ button:hover {
     .carousel-item img{
         width: 300px;
         border: 2px solid black;
+    }
+    .galeria img{
+        width: 50%;
     }
 
 }
