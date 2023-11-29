@@ -28,6 +28,9 @@ html{
 .inicio .contenido-seccion header{
     padding: 30px;
 }
+h1{
+font-family: copperplate;
+}
 
 /*menu lateral*/
 
@@ -125,21 +128,25 @@ html{
 /*SECCION SOBRE MI CAMINO */
 
 .sobremicamino{
-    background-color: black;
-    padding: 140px 0 100px 0;
+    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+    
 }
 .sobremicamino .contenido-seccion2{
     max-width: 1000px;
+    background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid rgb(160, 122, 26);
-    border-radius: 2%;
+    border: 2px solid gold;
 }
-.sobremicamino .contenido-seccion2 h3{
-    text-transform: uppercase;
-    font-size: 30px;
+.sobremicamino .contenido-seccion2 .titulo-seccion{
+    font-size: 50px;
     color: white;
+    font-family: copperplate;
 }
 .sobremicamino .contenido-seccion2 .especial2{
     color: #f5f1f3;
@@ -152,19 +159,9 @@ html{
     margin-top: 15px;
 }
 .sobremicamino .contenido-seccion2 .especial2-2{
-    color: #892be7;
+    color: #ee5ca5;
     font-weight: bold;
     margin-top: 15px;
-}
-
-.sobremicamino .contenido-seccion2 p{
-    max-width: 900px;
-    margin: auto;
-    color: #c0bebe;
-    justify-content: center;
-    overflow: hidden;
-    width: auto;
-    display: inline-block;
 }
 
 /* SECCION HABILIDADES*/
@@ -183,7 +180,7 @@ html{
     margin: auto;
     padding: 0 10px;
 }
-.habilidades .contenido-seccion h3{
+.habilidades .contenido-seccion h3 {
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -216,21 +213,23 @@ html{
 /*estilos generales*/
 
 .titulo-seccion{
-    font-family: "Yellowtail";
+    font-family: "copperplate";
     font-size: 50px;
     color: white;
 }
 
 /*SECCION SOBRE MI min */
 .sobremi{
-    background-color: rgb(97, 6, 97);
+    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
     padding: 140px 0 100px 0;
     text-align: center;
 }
 .sobremi .contenido-seccion{
     max-width: 1000px;
+    background-color: #000;
     margin: auto;
     padding: 0 10px;
+    border: 2px solid rgb(160, 122, 26);
 }
 .sobremi .contenido-seccion .titulo-seccion-servicios .especial{
     max-width: 50%;
@@ -239,8 +238,8 @@ html{
 
 }
 .sobremi .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
+    font-family: 'copperplate';
+    font-size: 50px;
 }
 .sobremi .contenido-seccion .especial{
     color: #f5f1f3;
@@ -288,7 +287,9 @@ html{
     color: #fff;
 }
 .galeriaFotos{
-    background-color:  rgb(97, 6, 97);
+    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
+    padding: 140px 0 100px 0;
+    text-align: center;
 }
 .galeria {
     display: flex;
@@ -325,7 +326,7 @@ img {
     padding: 0 10px;
 }
 .resumen .contenido-seccion h3{
-    text-transform: uppercase;
+    font-family: copperplate;
     font-size: 30px;
 }
 .resumen .contenido-seccion .info{
@@ -373,53 +374,6 @@ img {
     padding-left: 20px;
 }
 
-
-/* SECCION CERTIFICACIONES/CURSO* CARROUSEL*/
-
-#carousel-container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-}
-
-#carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-    width: 100%;
-    flex: 0 0 auto;
-}
-
-.carousel-item img{
-    width: 500px;
-    border: 2px solid black;
-}
-
-#prev, #next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-#next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-#prev:hover, #next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 .sobremi2{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
@@ -491,9 +445,9 @@ img {
 /* SECCION CONTACTO*/
 
 .contacto{
-    background-color: #202020;
+    background-color: #0c0b0b;
     padding: 140px 0 100px 0;
-    color: #e6e6e6;
+    color: rgb(250, 246, 246);
     text-align: center;
 }
 .contacto .contenido-seccion{
@@ -502,7 +456,7 @@ img {
     padding: 0 10px;
 }
 .contacto .contenido-seccion h3{
-    text-transform: uppercase;
+    font-family: copperplate;
     font-size: 30px;
 }
 .contacto .contenido-seccion .fila{
