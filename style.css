@@ -168,6 +168,7 @@ font-family: copperplate;
 .sobremicamino .contenido-seccion2 .especial2-3{
     margin: 3%;
     font-family: copperplate;
+    font-size: 50px;
 }
 
 /* SECCION HABILIDADES*/
@@ -270,12 +271,6 @@ font-family: copperplate;
 
 /*estilos generales*/
 
-.titulo-seccion{
-    font-family: "copperplate";
-    font-size: 50px;
-    color: white;
-}
-
 /*SECCION SOBRE MI min */
 .sobremi{
     background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
@@ -295,9 +290,10 @@ font-family: copperplate;
     border-radius: 10%;
 
 }
-.sobremi .contenido-seccion h3{
+.sobremi .contenido-seccion .titulo-seccion{
     font-family: 'copperplate';
     font-size: 50px;
+    color: white;
 }
 .sobremi .contenido-seccion .especial{
     color: #f5f1f3;
@@ -525,10 +521,16 @@ font-family: copperplate;
         margin-top: 20px;
         
     }
-    .fila2 .col2 img{
-        width: 80%;
-        margin: auto;
-        margin-top: 20px;
+    .sobremicamino .contenido-seccion2 .titulo-seccion{
+        font-size: 30px;
+    }
+
+    .sobremi .contenido-seccion .titulo-seccion{
+        font-size: 30px;
+    }
+
+    .sobremicamino .contenido-seccion2 .especial2-3{
+        font-size: 20px;
     }
     
     .resumen .contenido-seccion .info{
@@ -558,6 +560,9 @@ font-family: copperplate;
     }
     .galeria img{
         width: 50%;
+    }
+    .wrap{
+        display: block;
     }
 
 }
