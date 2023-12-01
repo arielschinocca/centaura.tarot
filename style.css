@@ -4,6 +4,7 @@
     font-family: "Titillium Web";
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -18,6 +19,7 @@ html{
     background-size: cover;
     background-position: center center;
     color: #f3efef;
+    max-width: 100%;
 }
 .inicio .contenido-seccion{
     max-width: 1000px;
@@ -37,7 +39,7 @@ font-family: copperplate;
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: #830294;
+    background-color: goldenrod;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -58,15 +60,15 @@ font-family: copperplate;
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Yellowtail";
-    text-shadow: 0 0 35px rgb(82, 3, 82);
+    text-shadow: 0 0 35px goldenrod;
 }
 .inicio .contenido-seccion header .logo .color{
-    color:#a80ca8;
+    color: goldenrod;
     font-family:"Yellowtail" ;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: #830294;
+    background-color: goldenrod;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -116,13 +118,13 @@ font-family: copperplate;
     position: relative;
 }
 .inicio .contenido-seccion .foto img{
-    border-radius: 2%;
+    border-radius: 1%;
     max-width: 200px;
-    border: 5px solid #f7f4f5;
     position: absolute;
     left: 50%;
-    top: -100px;
+    top: -205px;
     transform: translateX(-50%);
+    border: solid 1px black
 }
 
 /*SECCION SOBRE MI CAMINO */
@@ -141,7 +143,7 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
 }
 .sobremicamino .contenido-seccion2 .titulo-seccion{
     font-size: 50px;
@@ -162,6 +164,10 @@ font-family: copperplate;
     color: #ee5ca5;
     font-weight: bold;
     margin-top: 15px;
+}
+.sobremicamino .contenido-seccion2 .especial2-3{
+    margin: 3%;
+    font-family: copperplate;
 }
 
 /* SECCION HABILIDADES*/
@@ -208,6 +214,58 @@ font-family: copperplate;
     width: 20px;
     height: 30px;
     margin-right: 2px;
+}
+.wrap{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-wrap{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+
+.tarjeta{
+    width: 300px;
+    height: 350px;
+    background-color: goldenrod;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.adelante, .atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.atras{
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: "open sans";
+}
+
+.tarjeta-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+}
+
+.card1{
+    background-image:url(./img/imgTarot7.avif);
+    background-size: cover;
 }
 
 /*estilos generales*/
@@ -264,7 +322,7 @@ font-family: copperplate;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid #940253;
+    border: 2px solid goldenrod;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -276,38 +334,6 @@ font-family: copperplate;
 
 /*GALERIA DE FOTOS*/
 
-.galeriaFondo{
-    padding: 250px 0 250px 0;
-    text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/imgTarot5.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #fff;
-}
-.galeriaFotos{
-    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
-    padding: 140px 0 100px 0;
-    text-align: center;
-}
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.pareja {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px;
-}
 
 /* SECCION RESUMEN*/
 
@@ -467,7 +493,7 @@ img {
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: #830294;
+    color: goldenrod;
 }
 
 /* SECCION RESPONSIVE*/
