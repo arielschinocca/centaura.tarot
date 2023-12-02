@@ -15,7 +15,7 @@ html{
 
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/imgTarot6.jpg");
+    url(./img/imgTarot6.jpg);
     background-size: cover;
     background-position: center center;
     color: #f3efef;
@@ -39,7 +39,7 @@ font-family: copperplate;
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: goldenrod;
+    background-color: rgb(230, 208, 85);
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -60,15 +60,15 @@ font-family: copperplate;
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Yellowtail";
-    text-shadow: 0 0 35px goldenrod;
+    text-shadow: 0 0 35px rgb(230, 208, 85);
 }
 .inicio .contenido-seccion header .logo .color{
-    color: goldenrod;
+    color: rgb(230, 208, 85);
     font-family:"Yellowtail" ;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color: goldenrod;
+    background-color:rgb(230, 208, 85);
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -100,13 +100,13 @@ font-family: copperplate;
     display: inline-block;
     text-decoration: none;
     background-color: #000;
-    color: #830294;
-    border: 1px solid #830294;
+    color: #3b0342;
+    border: 1px solid #3b0342;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    margin: 0 5px;
+    margin: 60px;
     transition: .3s;
 }
 .inicio .contenido-seccion .info .redes a:hover{
@@ -143,12 +143,13 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid goldenrod;
+    border: 2px solid rgb(230, 208, 85);
 }
 .sobremicamino .contenido-seccion2 .titulo-seccion{
     font-size: 50px;
     color: white;
-    font-family: copperplate;
+    font-family: Verdana;
+    font-family: 'PT Sans';
 }
 .sobremicamino .contenido-seccion2 .especial2{
     color: #f5f1f3;
@@ -174,13 +175,14 @@ font-family: copperplate;
 /* SECCION HABILIDADES*/
 .habilidades{
     padding: 250px 0 250px 0;
+    background-image: url(./img/fotoLuna.jpeg);
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/ojoColores.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: #fff;
+    max-width: 100%;
+    height: auto;
 }
 .habilidades .contenido-seccion{
     max-width: 1000px;
@@ -282,7 +284,7 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid rgb(160, 122, 26);
+    border: 2px solid rgb(230, 208, 85);
 }
 .sobremi .contenido-seccion .titulo-seccion-servicios .especial{
     max-width: 50%;
@@ -318,7 +320,7 @@ font-family: copperplate;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid goldenrod;
+    border: 2px solid rgb(230, 208, 85);
     line-height: 40px;
     border-radius: 50%;
 }
@@ -489,7 +491,7 @@ font-family: copperplate;
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: goldenrod;
+    color:rgb(230, 208, 85);
 }
 
 /* SECCION RESPONSIVE*/
