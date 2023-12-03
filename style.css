@@ -39,7 +39,7 @@ font-family: copperplate;
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: rgb(230, 208, 85);
+    background-color: purple;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -60,15 +60,15 @@ font-family: copperplate;
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Yellowtail";
-    text-shadow: 0 0 35px rgb(230, 208, 85);
+    text-shadow: 0 0 35px purple;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: rgb(230, 208, 85);
+    color: purple;
     font-family:"Yellowtail" ;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color:rgb(230, 208, 85);
+    background-color:purple;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -76,6 +76,7 @@ font-family: copperplate;
     line-height: 50px;
     cursor: pointer;
     transition: .3s;
+    transform: translateX(-50%)
 }
 .inicio .contenido-seccion header .nav-bar:hover{
     box-shadow: 0 0 35px #fff;
@@ -111,7 +112,7 @@ font-family: copperplate;
 }
 .inicio .contenido-seccion .info .redes a:hover{
     color: #fff;
-    background-color: #830294;
+    background-color: purple;
     box-shadow: 0 0 20px #fff;
 }
 .inicio .contenido-seccion .foto{
@@ -143,7 +144,7 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid rgb(230, 208, 85);
+    border: 2px solid white;
 }
 .sobremicamino .contenido-seccion2 .titulo-seccion{
     font-size: 50px;
@@ -157,12 +158,12 @@ font-family: copperplate;
     margin-top: 15px;
 }
 .sobremicamino .contenido-seccion2 .especial2-1{
-    color: #ee5ca5;
+    color: grey;
     font-weight: bold;
     margin-top: 15px;
 }
 .sobremicamino .contenido-seccion2 .especial2-2{
-    color: #ee5ca5;
+    color: rgb(180, 178, 178);
     font-weight: bold;
     margin-top: 15px;
 }
@@ -233,7 +234,7 @@ font-family: copperplate;
 .tarjeta{
     width: 300px;
     height: 350px;
-    background-color: goldenrod;
+    background-color: purple;
     position: relative;
     transform-style: preserve-3d;
     transition: .5s ease;
@@ -284,12 +285,14 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
-    border: 2px solid rgb(230, 208, 85);
+    border: 2px solid white;
 }
 .sobremi .contenido-seccion .titulo-seccion-servicios .especial{
-    max-width: 50%;
-    text-align: center;
+    max-width: 100%;
+    text-align: center ;
     border-radius: 10%;
+    font-size: 20px;
+
 
 }
 .sobremi .contenido-seccion .titulo-seccion{
@@ -320,7 +323,7 @@ font-family: copperplate;
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 2px solid rgb(230, 208, 85);
+    border: 2px solid purple;
     line-height: 40px;
     border-radius: 50%;
 }
@@ -431,7 +434,7 @@ font-family: copperplate;
     background-position: center;
 }
 .sobremi2 .contenido-seccion2 .especial2{
-    color: #830294;
+    color: purple;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -449,11 +452,11 @@ font-family: copperplate;
     width: 30%;
 }
 .sobremi .contenido-seccion .fila2 .col2 {
-    color: #830294;
+    color: purple;
     display: inline-block;
     width: 10px;
     height: 40px;
-    border: 2px solid #830294;
+    border: 2px solid purple;
     line-height: 40px;
     border-radius: 50%;
     max-width: 100px;
@@ -491,7 +494,7 @@ font-family: copperplate;
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color:rgb(230, 208, 85);
+    color: purple;
 }
 
 /* SECCION RESPONSIVE*/
@@ -534,6 +537,19 @@ font-family: copperplate;
     .sobremicamino .contenido-seccion2 .especial2-3{
         font-size: 20px;
     }
+
+    .sobremicamino .contenido-seccion2{
+        max-width: 75%;
+    }
+
+    .sobremi .contenido-seccion {
+        max-width: 75%;
+    }
+
+    .sobremicamino .contenido-seccion2 .especial2-1{
+        font-size: 20px;
+
+    }
     
     .resumen .contenido-seccion .info{
         display: block;
@@ -560,11 +576,15 @@ font-family: copperplate;
         width: 300px;
         border: 2px solid black;
     }
-    .galeria img{
-        width: 50%;
-    }
     .wrap{
         display: block;
+    }
+
+    .tarjeta{
+        max-width: 100%;
+    }
+    .card1{
+        max-width: 100%;
     }
 
 }
