@@ -25,13 +25,15 @@ html{
     height: 200px;
 }
 
-/*Seccion inicio*/
+
 body {
-    background-image: url(./img/fotoRosa.jpg); /* Ruta de tu imagen de fondo */
+    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png); /* Ruta de tu imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }
+
+/*Seccion inicio*/
 .inicio{
     position: relative;
     background-size: cover;
@@ -151,6 +153,129 @@ font-family: copperplate;
     color: white;
 }
 
+/*seccion inicio 2*/
+
+.inicio2{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    color: #efaaaa;
+    max-width: 100%;
+}
+.inicio2 .contenido-seccion2{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio2 .contenido-seccion2 header{
+    padding: 30px;
+}
+h1{
+font-family: copperplate;
+}
+
+/*menu lateral2*/
+
+.inicio2 .contenido-seccion2 header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #efaaaa;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+}
+.inicio2 .contenido-seccion2 header nav a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* ****** */ 
+.inicio2{
+    display: none;
+}
+.inicio2 .contenido-seccion2 header .logo2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px palevioletred;
+}
+.inicio2 .contenido-seccion2 header .logo2 .color2{
+    color: white;
+    font-family:"Yellowtail" ;
+}
+.inicio2 .contenido-seccion2 header .nav-bar2{
+    position: fixed;
+    background-color:#c58b8b;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+    transform: translateX(-50%)
+}
+.inicio2 .contenido-seccion2 header .nav-bar2:hover{
+    box-shadow: 0 0 35px #fff;
+}
+.inicio2 .contenido-seccion2 .info2{
+    padding-bottom: 130px;
+}
+.inicio2 .contenido-seccion2 .info2 h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: white;
+}
+.inicio2 .contenido-seccion2 .info2 h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    color: #bd9d9d;
+}
+.header2 .contenido-seccion2 .info2 .redes2{
+    margin: 20px 0;
+}
+.inicio2 .contenido-seccion2 .info2 .redes2 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:#efaaaa;
+    color:black;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px;
+    transition: .3s;
+}
+.inicio2 .contenido-seccion2 .info2 .redes2 a:hover{
+    color: black;
+    background-color: #c58b8b;
+    box-shadow: 0 0 20px rgb(245, 145, 145);
+}
+.inicio2 .contenido-seccion2 .foto2{
+    position: relative;
+}
+.inicio2 .contenido-seccion2 .foto2 img{
+    border-radius: 1%;
+    max-width: 200px;
+    position: absolute;
+    left: 50%;
+    top: -205px;
+    transform: translateX(-50%);
+    border: solid 1px black
+}
+.fa-solid{
+    color: white;
+}
+
 /*SECCION SOBRE MI CAMINO */
 
 .sobremicamino{
@@ -163,29 +288,29 @@ font-family: copperplate;
 }
 .sobremicamino .contenido-seccion2{
     max-width: 1000px;
-    background-color: #000;
+    background-color: #c58b8b ;
     margin: auto;
     padding: 0 10px;
     border: 2px solid white;
 }
 .sobremicamino .contenido-seccion2 .titulo-seccion{
     font-size: 50px;
-    color: white;
+    color: rgb(150, 67, 38);
     font-family: Verdana;
     font-family: 'PT Sans';
 }
 .sobremicamino .contenido-seccion2 .especial2{
-    color: #f5f1f3;
+    color: black;
     font-weight: bold;
     margin-top: 15px;
 }
 .sobremicamino .contenido-seccion2 .especial2-1{
-    color: grey;
+    color: black;
     font-weight: bold;
     margin-top: 15px;
 }
 .sobremicamino .contenido-seccion2 .especial2-2{
-    color: rgb(180, 178, 178);
+    color: rgb(61, 60, 60);
     font-weight: bold;
     margin-top: 15px;
 }
@@ -519,6 +644,17 @@ font-family: copperplate;
 
 /* SECCION RESPONSIVE*/
 @media screen and (max-width:600px){
+    .inicio{
+        display: none;
+    }
+    .inicio2{
+        display: contents;
+    }
+    .inicio2 .contenido-seccion2 .info2 h1{
+        margin: 30%;
+        font-size: 20px;
+    
+    }
     .inicio .contenido-seccion .info h1{
         display: none;
     }
@@ -617,6 +753,9 @@ font-family: copperplate;
     }
     .card1{
         max-width: 100%;
+    }
+    .inicio2 .contenido-seccion2 .info2{
+        padding-bottom: 10px;
     }
 
 }
