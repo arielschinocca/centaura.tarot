@@ -288,10 +288,8 @@ font-family: copperplate;
 }
 .sobremicamino .contenido-seccion2{
     max-width: 1000px;
-    background-color: #c58b8b ;
-    margin: auto;
+    margin: 50px;
     padding: 0 10px;
-    border: 2px solid white;
 }
 .sobremicamino .contenido-seccion2 .titulo-seccion{
     font-size: 50px;
@@ -320,107 +318,46 @@ font-family: copperplate;
     font-size: 50px;
 }
 
-/* SECCION HABILIDADES*/
-.habilidades{
-    padding: 250px 0 250px 0;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #fff;
-    max-width: 100%;
-    height: auto;
-}
-.habilidades .contenido-seccion{
+/*SECCION IMAGEN Y TEXTO*/
+
+.imagen-texto{
+    margin-top: auto;
     max-width: 1000px;
+    background-color: #000;
     margin: auto;
     padding: 0 10px;
+    border: 2px solid white;
 }
-.habilidades .contenido-seccion h3 {
-    text-transform: uppercase;
-    font-size: 30px;
-}
-.habilidades .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.habilidades .contenido-seccion .fila .col{
-    width: 47%;
-    text-align: left;
-}
-.habilidades .contenido-seccion .fila .col .cont-barra{
+
+.contenedor-imagen-texto{
     display: flex;
     align-items: center;
 }
-.habilidades .contenido-seccion .barra{
-    display: flex;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-.habilidades .contenido-seccion .barra .e{
-    background-color: #f8f5f5;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
-.wrap{
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-}
 
-.tarjeta-wrap{
-    margin: 10px;
-    -webkit-perspective: 800;
-    perspective: 800;
-}
-
-.tarjeta{
-    width: 300px;
-    height: 350px;
-    background-color: #c58b8b;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: .5s ease;
-    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-    -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
-}
-
-.adelante, .atras{
+.imagenMia{
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    padding: 100px;
 }
 
-.atras{
-    transform: rotateY(180deg);
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    font-family: "open sans";
+.imagenMia img{
+    max-width: 300px;
 }
 
-.tarjeta-wrap:hover .tarjeta{
-    transform: rotateY(180deg);
+.textoCamino{
+    margin-right: 10px;
 }
 
-.card1{
-    background-image:url(./img/imgTarot7.avif);
-    background-size: cover;
+.h4Texto{
+    padding: 5%;
+    font-size: medium;
+    color: white;
 }
 
-/*estilos generales*/
+
 
 /*SECCION SOBRE MI min */
+
 .sobremi{
     padding: 140px 0 100px 0;
     text-align: center;
@@ -478,7 +415,58 @@ font-family: copperplate;
     margin: 8px 0;
 }
 
-/*GALERIA DE FOTOS*/
+.wrap{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-wrap{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+
+.tarjeta{
+    width: 300px;
+    height: 350px;
+    background-color: #c58b8b;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .5s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.adelante, .atras{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.atras{
+    transform: rotateY(180deg);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: "open sans";
+}
+
+.tarjeta-wrap:hover .tarjeta{
+    transform: rotateY(180deg);
+}
+
+.card1{
+    background-image:url(./img/imgTarot7.avif);
+    background-size: cover;
+}
 
 
 /* SECCION RESUMEN*/
@@ -723,6 +711,10 @@ font-family: copperplate;
         max-width: 75%;
     }
 
+    .imagen-texto{
+        max-width: 75%;
+    }
+
     .sobremicamino .contenido-seccion2 .especial2-1{
         font-size: 20px;
 
@@ -766,4 +758,17 @@ font-family: copperplate;
     .inicio2 .contenido-seccion2 .info2{
         padding-bottom: 10px;
     }
+    .contenedor-imagen-texto{
+        display: block;
+    }
+    .imagenMia{
+        text-align: center;
+    }
+    .textoCamino{
+        text-align: center;
+    }
+    .h4Texto{
+        max-width: 100%;
+    }
+
 }
