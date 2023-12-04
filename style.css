@@ -11,14 +11,32 @@ html{
     scroll-behavior: smooth;
 }
 
-/*Seccion inicio*/
+/*seccion header*/
+.header{
+    background-color: #161313;
+    position:absolute;
+    width: 100%;
+}
+.foto-header {
+    text-align: end;
+}
+.foto-header img{
+    width: 200px;
+    height: 200px;
+}
 
+/*Seccion inicio*/
+body {
+    background-image: url(./img/fotoRosa.jpg); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+}
 .inicio{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url(./img/imgTarot6.jpg);
+    position: relative;
     background-size: cover;
     background-position: center center;
-    color: #f3efef;
+    color: #efaaaa;
     max-width: 100%;
 }
 .inicio .contenido-seccion{
@@ -39,7 +57,7 @@ font-family: copperplate;
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
-    background-color: purple;
+    background-color: #efaaaa;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -60,15 +78,15 @@ font-family: copperplate;
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Yellowtail";
-    text-shadow: 0 0 35px purple;
+    text-shadow: 0 0 35px palevioletred;
 }
 .inicio .contenido-seccion header .logo .color{
-    color: purple;
+    color: white;
     font-family:"Yellowtail" ;
 }
 .inicio .contenido-seccion header .nav-bar{
     position: fixed;
-    background-color:purple;
+    background-color:#c58b8b;
     font-size: 20px;
     width: 50px;
     height: 50px;
@@ -87,33 +105,35 @@ font-family: copperplate;
 .inicio .contenido-seccion .info h1{
     font-size: 3rem;
     letter-spacing: 5px;
+    color: white;
 }
 .inicio .contenido-seccion .info h2{
     font-weight: normal;
     font-size: 20px;
     margin-top: -10px;
     letter-spacing: 2px;
+    color: #bd9d9d;
 }
-.inicio .contenido-seccion .info .redes{
+.header .contenido-seccion .info .redes{
     margin: 20px 0;
 }
 .inicio .contenido-seccion .info .redes a{
     display: inline-block;
     text-decoration: none;
-    background-color: #000;
-    color: #3b0342;
-    border: 1px solid #3b0342;
+    background-color:#efaaaa;
+    color:black;
+    border: 1px solid black;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     line-height: 40px;
-    margin: 60px;
+    margin: 30px;
     transition: .3s;
 }
 .inicio .contenido-seccion .info .redes a:hover{
-    color: #fff;
-    background-color: purple;
-    box-shadow: 0 0 20px #fff;
+    color: black;
+    background-color: #c58b8b;
+    box-shadow: 0 0 20px rgb(245, 145, 145);
 }
 .inicio .contenido-seccion .foto{
     position: relative;
@@ -127,11 +147,13 @@ font-family: copperplate;
     transform: translateX(-50%);
     border: solid 1px black
 }
+.fa-solid{
+    color: white;
+}
 
 /*SECCION SOBRE MI CAMINO */
 
 .sobremicamino{
-    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -176,7 +198,6 @@ font-family: copperplate;
 /* SECCION HABILIDADES*/
 .habilidades{
     padding: 250px 0 250px 0;
-    background-image: url(./img/fotoLuna.jpeg);
     text-align: center;
     background-size: cover;
     background-attachment: fixed;
@@ -234,7 +255,7 @@ font-family: copperplate;
 .tarjeta{
     width: 300px;
     height: 350px;
-    background-color: purple;
+    background-color: #c58b8b;
     position: relative;
     transform-style: preserve-3d;
     transition: .5s ease;
@@ -276,7 +297,6 @@ font-family: copperplate;
 
 /*SECCION SOBRE MI min */
 .sobremi{
-    background-image: url(./img/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png);
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -494,11 +514,23 @@ font-family: copperplate;
     margin-top: 50px;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: purple;
+    color: #c58b8b;
 }
 
 /* SECCION RESPONSIVE*/
 @media screen and (max-width:600px){
+    .inicio .contenido-seccion .info h1{
+        display: none;
+    }
+    .inicio .contenido-seccion header .logo{
+        display: none;
+    }
+    .inicio .contenido-seccion .info h2{
+        display: none;
+    }
+    .redes{
+        margin-top: 123px;
+    }
     .habilidades .contenido-seccion .fila{
         display: block;
     }
