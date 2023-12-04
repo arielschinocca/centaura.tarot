@@ -643,7 +643,7 @@ font-family: copperplate;
 }
 
 /* SECCION RESPONSIVE*/
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .header img{
         width: 130px;
         height: 130px;
@@ -661,7 +661,7 @@ font-family: copperplate;
         display: contents;
     }
     .inicio2 .contenido-seccion2 .info2 h1{
-        margin: 4%;
+        margin: 5%;
         font-size: 30px;
     }
     .inicio .contenido-seccion .info h1{
