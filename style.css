@@ -704,11 +704,11 @@ font-family: copperplate;
     }
 
     .sobremicamino .contenido-seccion2{
-        max-width: 75%;
+        max-width: 95%;
     }
 
     .sobremi .contenido-seccion {
-        max-width: 75%;
+        max-width: 95%;
     }
 
     .imagen-texto{
@@ -761,14 +761,17 @@ font-family: copperplate;
     .contenedor-imagen-texto{
         display: block;
     }
-    .imagenMia{
-        text-align: center;
+    .imagenMia img{
+        max-width: 100%;
     }
     .textoCamino{
         text-align: center;
     }
     .h4Texto{
         max-width: 100%;
+    }
+    .imagen-texto{
+        max-width: 95%;
     }
 
 }
