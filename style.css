@@ -13,7 +13,7 @@ html{
 
 /*seccion header*/
 .header{
-    background-color: #161313;
+    background-color: #141212;
     position:absolute;
     width: 100%;
 }
@@ -644,6 +644,16 @@ font-family: copperplate;
 
 /* SECCION RESPONSIVE*/
 @media screen and (max-width:600px){
+    .header img{
+        width: 130px;
+        height: 130px;
+    }
+    .logo2 .color2{
+        display: contents;
+    }
+    .inicio2 .contenido-seccion2 header .logo2{
+        display: contents;
+    }
     .inicio{
         display: none;
     }
@@ -651,9 +661,8 @@ font-family: copperplate;
         display: contents;
     }
     .inicio2 .contenido-seccion2 .info2 h1{
-        margin: 30%;
-        font-size: 20px;
-    
+        margin: 4%;
+        font-size: 30px;
     }
     .inicio .contenido-seccion .info h1{
         display: none;
@@ -757,5 +766,4 @@ font-family: copperplate;
     .inicio2 .contenido-seccion2 .info2{
         padding-bottom: 10px;
     }
-
 }
