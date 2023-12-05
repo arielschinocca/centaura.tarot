@@ -296,6 +296,7 @@ font-family: copperplate;
     color: rgb(150, 67, 38);
     font-family: Verdana;
     font-family: 'PT Sans';
+    display: none;
 }
 .sobremicamino .contenido-seccion2 .especial2{
     color: black;
@@ -326,6 +327,14 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     border: 2px solid white;
+}
+
+.titulo-camino{
+    font-size: 40px;
+    padding: 0 10px;
+    color: rgb(150, 67, 38);
+    font-family: Verdana;
+    font-family: 'PT Sans';
 }
 
 .contenedor-imagen-texto{
@@ -759,9 +768,16 @@ textarea{
         max-width: 75%;
     }
 
+    .imagenMia{
+        padding: 30px;
+    }
     .sobremicamino .contenido-seccion2 .especial2-1{
         font-size: 20px;
 
+    }
+
+    .titulo-camino{
+        font-size: 30px;
     }
     
     .resumen .contenido-seccion .info{
