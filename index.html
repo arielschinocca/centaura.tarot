@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Tarot Centaura</title>
 </head>
@@ -74,14 +75,14 @@
 
     <section class="sobremicamino" id="sobremi">
             <div class="contenido-seccion2">
-                <h3 class="titulo-seccion">Por que elegi este camino?</h3>
+                <h3 data-aos="fade-up" class="titulo-seccion">Por que elegi este camino?</h3>
             </div>
     </section>
 
     <!--SECCION IMAGEN Y TEXTO-->
 
-    <section class="imagen-texto" id="imagenTexto">
-        <div class="contenedor-imagen-texto">
+    <section data-aos="fade-up" class="imagen-texto" id="imagenTexto">
+        <div  class="contenedor-imagen-texto">
             <div class="imagenMia">
                 <img src="./img/IMG_20210815_004253070.jpg" alt="">
             </div>
@@ -126,7 +127,7 @@
     </section>
     
     <!--SECCION SOBRE MI-->
-    <section class="sobremi" id="habilidades">
+    <section data-aos="fade-up" class="sobremi" id="habilidades">
             <div class="contenido-seccion">
                 <h3 class="titulo-seccion">Mis Servicios</h3>
                 <div class="titulo-seccion-servicios">
@@ -201,6 +202,14 @@
         </div>
     </section>
     
+
+
+
+    
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

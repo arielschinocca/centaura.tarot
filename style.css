@@ -325,7 +325,6 @@ font-family: copperplate;
     max-width: 1000px;
     background-color: #000;
     margin: auto;
-    padding: 0 10px;
     border: 2px solid white;
 }
 
@@ -335,17 +334,16 @@ font-family: copperplate;
 }
 
 .imagenMia{
-    width: 100%;
     height: 100%;
     padding: 100px;
 }
 
 .imagenMia img{
-    max-width: 300px;
+    max-width: 100%;
 }
 
 .textoCamino{
-    margin-right: 10px;
+    background-color: #c58b8b;
 }
 
 .h4Texto{
@@ -773,5 +771,4 @@ font-family: copperplate;
     .imagen-texto{
         max-width: 95%;
     }
-
 }
