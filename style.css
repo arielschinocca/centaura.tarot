@@ -610,6 +610,11 @@ font-family: copperplate;
         border: 2px solid white;
 }
 
+form{
+    text-align: center;
+    font-size:large;
+}
+
 #formulario{
     background-color: #000;
     color: white;
@@ -618,7 +623,7 @@ font-family: copperplate;
 }
 
 #formulario form{
-    font-size: 14px;
+    font-size: 25px;
     margin: 0 auto;
     width: 400px;
 }
@@ -634,6 +639,11 @@ textarea{
     margin-bottom: 10px;
     padding: 10px;
     width: 400px;
+    background-color: #bd9d9d;
+}
+
+.campo:hover{
+    background-color: white;
 }
 
 /* SECCION CONTACTO*/
@@ -807,4 +817,29 @@ textarea{
     .imagen-texto{
         max-width: 95%;
     }
+    .formu{
+        max-width: 95%;
+    }
+    #formulario{
+        padding: 0;
+    }
+    form {
+        max-width: 100%;
+        text-align: center;
+        font-size: medium;
+    }
+    .campo{
+        background-color: #bd9d9d;
+        max-width: 100%;
+    }
+    .campo:hover{
+        background-color: white;
+    }
+    
+    textarea{
+        max-width: 100%;
+        background-color: grey;
+    }
+
+
 }
