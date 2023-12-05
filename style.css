@@ -600,6 +600,42 @@ font-family: copperplate;
 
 }
 
+/*FORMULARIO*/
+
+.formu{
+        max-width: 1000px;
+        background-color: #000;
+        margin: auto;
+        padding: 0 10px;
+        border: 2px solid white;
+}
+
+#formulario{
+    background-color: #000;
+    color: white;
+    padding: 40px;
+    
+}
+
+#formulario form{
+    font-size: 14px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+textarea{
+    height: 100px;
+    width: 400px;
+}
+
+.campo{
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
 /* SECCION CONTACTO*/
 
 .contacto{
