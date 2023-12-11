@@ -381,6 +381,7 @@ font-family: copperplate;
     text-align: center ;
     border-radius: 10%;
     font-size: 20px;
+    margin: 10px;
 }
 .sobremi .contenido-seccion .titulo-seccion{
     font-family: 'copperplate';
@@ -421,7 +422,9 @@ font-family: copperplate;
 }
 
 .wrap{
-    display: flex;
+    display: inline-block;
+    text-align: center;
+    max-width: 1000px;
     margin-top: 10px;
     justify-content: space-between;
 }
@@ -432,9 +435,15 @@ font-family: copperplate;
     perspective: 800;
 }
 
+.tarjeta-wrap h4{
+    background-color: #c58b8b;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .tarjeta{
-    width: 250px;
-    height: 300px;
+    width: 450px;
+    height: 500px;
     background-color: #c58b8b;
     position: relative;
     transform-style: preserve-3d;
@@ -443,6 +452,7 @@ font-family: copperplate;
     -moz-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
     box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
 }
+
 
 .adelante, .atras{
     width: 100%;
@@ -805,13 +815,19 @@ textarea{
     }
     .wrap{
         display: block;
+        text-align: center;
+    }
+
+    .tarjeta-wrap{
+        max-width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: auto;
     }
 
     .tarjeta{
-        max-width: 100%;
-    }
-    .card1{
-        max-width: 100%;
+        width: 100%;
+        height: 400px;
     }
     .inicio2 .contenido-seccion2 .info2{
         padding-bottom: 10px;
