@@ -481,6 +481,8 @@ font-family: copperplate;
 .card1{
     background-image:url(./img/imgTarot7.avif);
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 
@@ -823,6 +825,10 @@ textarea{
         display: block;
         text-align: center;
         margin-top: auto;
+    }
+
+    .card1{
+        max-width: 100%;
     }
 
     .tarjeta{
