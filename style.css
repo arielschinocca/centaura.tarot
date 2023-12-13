@@ -179,7 +179,7 @@ font-family: copperplate;
 /*menu lateral2*/
 
 .inicio2 .contenido-seccion2 header nav{
-    z-index: 3;
+    z-index: 5;
     position: fixed;
     margin-left: 60px;
     background-color: #efaaaa;
