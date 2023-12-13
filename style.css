@@ -87,6 +87,7 @@ font-family: copperplate;
     font-family:"Yellowtail" ;
 }
 .inicio .contenido-seccion header .nav-bar{
+    z-index: 5;
     position: fixed;
     background-color:#c58b8b;
     font-size: 20px;
@@ -178,6 +179,7 @@ font-family: copperplate;
 /*menu lateral2*/
 
 .inicio2 .contenido-seccion2 header nav{
+    z-index: 3;
     position: fixed;
     margin-left: 60px;
     background-color: #efaaaa;
@@ -327,6 +329,7 @@ font-family: copperplate;
     background-color: #000;
     margin: auto;
     border: 2px solid white;
+    position: relative;
 }
 
 .titulo-camino{
@@ -702,6 +705,14 @@ textarea{
     .logo2 .color2{
         display: contents;
     }
+
+    .inicio .contenido-seccion header .nav-bar{
+        z-index: 5;
+    }
+    .inicio2 .contenido-seccion2 header .nav-bar2{
+        z-index: 5;
+    }
+    
     .inicio2 .contenido-seccion2 header .logo2{
         display: contents;
     }
