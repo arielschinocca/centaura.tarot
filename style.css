@@ -15,6 +15,8 @@ html{
 
 body {
     background-image: url(./img/cielo-estrellado.jpg); /* Ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }
 
