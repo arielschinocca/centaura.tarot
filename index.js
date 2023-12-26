@@ -81,6 +81,6 @@ startInterval(); // Inicia el carrusel automáticamente al cargar la página
 
 document.getElementById('instagram-chat').addEventListener('click', function() {
     // Puedes agregar funciones adicionales aquí, por ejemplo, abrir una ventana de chat de Instagram
-    window.open('https://www.instagram.com/direct/t/17847725300573799', '_blank');
+    window.open('https://ig.me/m/tarot_centaura', '_blank');
     // o realizar alguna otra acción.
 });
