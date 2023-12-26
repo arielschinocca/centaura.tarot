@@ -99,13 +99,13 @@ font-family: copperplate;
 }
 .inicio .contenido-seccion .info h2{
     font-weight: normal;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
     letter-spacing: 2px;
     color: #bd9d9d;
 }
 .header .contenido-seccion .info .redes{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .inicio .contenido-seccion .info .redes a{
     display: inline-block;
@@ -357,7 +357,7 @@ font-family: copperplate;
 
 
 
-/*SECCION SOBRE MI min */
+/*SECCION SOBRE MI*/
 
 .sobremi{
     padding: 140px 0 100px 0;
@@ -436,9 +436,11 @@ font-family: copperplate;
 }
 
 .tarjeta{
+    font-size: large;
+    font-weight: 700;
     width: 450px;
     height: 500px;
-    background-color: #c58b8b;
+    background: linear-gradient(#c58b8b, #000);
     position: relative;
     transform-style: preserve-3d;
     transition: .5s ease;
@@ -456,6 +458,7 @@ font-family: copperplate;
     left: 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    color: #000;
 }
 
 .atras{

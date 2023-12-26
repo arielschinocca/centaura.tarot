@@ -33,7 +33,7 @@ function mostrarOcultarMenu2(){
     }
 }
 // oculto el menu una vez que selecciono una opcion
-let links2 = document.querySelectorAll("nav a");
+let links2 = document.querySelectorAll("nav2 a");
 for(var x = 0; x <links.length;x++){
     links[x].onclick = function(){
         menu2.style.display = "none";
