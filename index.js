@@ -76,3 +76,11 @@ function nextSlide() {
 startInterval(); // Inicia el carrusel automáticamente al cargar la página
 
 
+// Puedes agregar scripts adicionales según tus necesidades
+// Este script es opcional y se utiliza para un comportamiento adicional
+
+document.getElementById('instagram-chat').addEventListener('click', function() {
+    // Puedes agregar funciones adicionales aquí, por ejemplo, abrir una ventana de chat de Instagram
+    window.open('https://www.instagram.com/direct/t/17847725300573799', '_blank');
+    // o realizar alguna otra acción.
+});
