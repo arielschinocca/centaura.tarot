@@ -47,7 +47,11 @@ body {
     background-position: center; /* Centra la imagen en el fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }
-
+h1{
+    color: white;
+    text-align: center;
+    color: #535151;
+}
 /*Seccion inicio*/
 .inicio{
     position: relative;
@@ -295,46 +299,6 @@ font-family: copperplate;
 
 /*SECCION SOBRE MI CAMINO */
 
-.sobremicamino{
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-
-    
-}
-.sobremicamino .contenido-seccion2{
-    max-width: 1000px;
-    margin: 50px;
-    padding: 0 10px;
-}
-.sobremicamino .contenido-seccion2 .titulo-seccion{
-    font-size: 50px;
-    color: rgb(150, 67, 38);
-    font-family: Verdana;
-    font-family: 'PT Sans';
-    display: none;
-}
-.sobremicamino .contenido-seccion2 .especial2{
-    color: black;
-    font-weight: bold;
-    margin-top: 15px;
-}
-.sobremicamino .contenido-seccion2 .especial2-1{
-    color: black;
-    font-weight: bold;
-    margin-top: 15px;
-}
-.sobremicamino .contenido-seccion2 .especial2-2{
-    color: rgb(61, 60, 60);
-    font-weight: bold;
-    margin-top: 15px;
-}
-.sobremicamino .contenido-seccion2 .especial2-3{
-    margin: 3%;
-    font-family: copperplate;
-    font-size: 50px;
-}
 
 /*SECCION IMAGEN Y TEXTO*/
 
@@ -916,5 +880,8 @@ textarea{
         background-color: grey;
     }
 
+    h1{
+        font-size: large;
+    }
 
 }
