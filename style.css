@@ -837,6 +837,10 @@ textarea{
         max-width: 100%;
     }
 
+    .atras{
+        font-size: 2px;
+    }
+
     .tarjeta{
         width: 100%;
         height: 400px;
