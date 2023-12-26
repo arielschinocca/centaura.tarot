@@ -6,6 +6,34 @@
     box-sizing: border-box;
 }
 
+#instagram-chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#instagram-chat img {
+    width: 50px; /* Ajusta el tamaño según tus preferencias */
+    height: auto;
+    border-radius: 50%; /* Esto crea bordes redondeados para la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Añade una sombra para destacar el botón */
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave al hacer hover */
+}
+
+#instagram-chat p{
+    color: white;
+    font-weight: 700;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+}
+
+#instagram-chat img:hover {
+    transform: scale(1.1); /* Efecto de escala al hacer hover */
+}
+
 html{
     scroll-behavior: smooth;
 }
