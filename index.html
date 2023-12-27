@@ -167,20 +167,23 @@
 
     <section data-aos="fade-up" class="formu">
         <div id="formulario">
-            <form action="formulario.php" method="post">
+            <form action="https://formsubmit.co/arielschinocca4@gmail.com" method="POST">
                 <label for="name">Nombre</label>
-                <input type="text" class="campo" id="Nombre"><br/>
+                <input type="text" class="campo" name="Nombre"><br/>
 
                 <label>telefono</label>
-                <input type="text" class="campo" id="telefono"><br/>
+                <input type="text" class="campo" name="telefono"><br/>
 
                 <label>email</label>
-                <input type="text" class="campo" id="email"><br/>
+                <input type="text" class="campo" name="email"><br/>
 
                 <label>Mensaje</label>
-                <textarea  id="Mensaje" cols="30" rows="10"></textarea>
+                <textarea  name="Mensaje" cols="30" rows="10"></textarea>
 
                 <input type="submit" value="Enviar">
+
+                <input type="hidden" name="_next" value="https://tarotcentaura.com.ar">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
     </section>
