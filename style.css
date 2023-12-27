@@ -36,6 +36,10 @@ html{
     text-decoration: none;
 }
 
+#instagram-chat a{
+    text-decoration: none;
+}
+
 #instagram-chat img:hover {
     transform: scale(1.1); /* Efecto de escala al hacer hover */
 }
