@@ -13,10 +13,11 @@ html{
 
 #instagram-chat {
     position: fixed;
-    right: 20px;
+    right: 10px;
     bottom: 20px;
     z-index: 1000;
     cursor: pointer;
+    text-align: center;
 }
 
 #instagram-chat img {
@@ -27,7 +28,7 @@ html{
     transition: transform 0.3s ease-in-out; /* Agrega una transición suave al hacer hover */
 }
 
-#instagram-chat p{
+#instagram-chat .hablame{
     color: white;
     font-weight: 700;
     font-size: medium;
@@ -683,7 +684,7 @@ textarea{
 }
 
 /* SECCION RESPONSIVE*/
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
     .header img{
         width: 130px;
         height: 130px;
