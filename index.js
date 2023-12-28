@@ -41,43 +41,6 @@ for(var x = 0; x <links.length;x++){
     }
 }
 
-//carrousel de fotos
-
-let currentIndex = 0;
-const intervalTime = 5000; // Cambia el tiempo en milisegundos según tus preferencias
-const direction = 1; // 1 para avanzar hacia la derecha, -1 para avanzar hacia la izquierda
-let interval;
-
-function startInterval() {
-    interval = setInterval(() => {
-    nextSlide();
-    }, intervalTime);
-}
-
-function stopInterval() {
-    clearInterval(interval);
-}
-
-function showSlide(index) {
-    const carousel = document.getElementById('carousel');
-    const totalSlides = document.querySelectorAll('.carousel-item').length;
-    index = (index + totalSlides) % totalSlides;
-
-    const offset = -index * 100 + '%';
-    carousel.style.transform = 'translateX(' + offset + ')';
-    currentIndex = index;
-}
-
-
-function nextSlide() {
-    showSlide(currentIndex + direction);
-}
-
-startInterval(); // Inicia el carrusel automáticamente al cargar la página
-
-
-// Puedes agregar scripts adicionales según tus necesidades
-// Este script es opcional y se utiliza para un comportamiento adicional
 
 document.getElementById('instagram-chat').addEventListener('click', function() {
     // Puedes agregar funciones adicionales aquí, por ejemplo, abrir una ventana de chat de Instagram
@@ -85,3 +48,23 @@ document.getElementById('instagram-chat').addEventListener('click', function() {
     // o realizar alguna otra acción.
 });
 
+
+function enviarFormulario() {
+    // Obtener los datos del formulario
+    let nombre = document.getElementById("nombre").value;
+    let telefono = document.getElementById("telefono").value;
+    let email = document.getElementById("email").value;
+    let mensaje = document.getElementById("mensaje").value;
+
+    // Verificar que se hayan ingresado todos los campos
+    if (nombre && telefono && email && mensaje) {
+      // Mostrar mensaje de confirmación
+        alert("Mensaje enviado:\nNombre: " + nombre + "\nTeléfono: " + telefono + "\nEmail: " + email + "\nMensaje: " + mensaje);
+
+      // Recargar la página
+        location.reload();
+    } else {
+      // Mostrar un mensaje de error si algún campo está vacío
+        alert("Por favor, complete todos los campos antes de enviar el formulario.");
+    }
+}
