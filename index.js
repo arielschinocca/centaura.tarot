@@ -50,21 +50,22 @@ document.getElementById('instagram-chat').addEventListener('click', function() {
 
 
 function enviarFormulario() {
-    // Obtener los datos del formulario
     let nombre = document.getElementById("nombre").value;
     let telefono = document.getElementById("telefono").value;
     let email = document.getElementById("email").value;
     let mensaje = document.getElementById("mensaje").value;
 
-    // Verificar que se hayan ingresado todos los campos
     if (nombre && telefono && email && mensaje) {
-      // Mostrar mensaje de confirmación
-        alert("Mensaje enviado:\nNombre: " + nombre + "\nTeléfono: " + telefono + "\nEmail: " + email + "\nMensaje: " + mensaje);
+      // Aquí podrías enviar los datos del formulario a tu servidor o realizar otras acciones necesarias
 
-      // Recargar la página
-        location.reload();
+      // Redirigir a la página de agradecimiento
+        window.location.href = "https://tarotcentaura.com.ar/paginaGracias/gracias.html";
+
+      // Después de 2 segundos, redirigir de nuevo a la página principal
+        setTimeout(function() {
+        window.location.href = "https://tarotcentaura.com.ar/";
+        }, 2000);
     } else {
-      // Mostrar un mensaje de error si algún campo está vacío
-        alert("Por favor, complete todos los campos antes de enviar el formulario.");
+        alert("Por favor, completa todos los campos antes de enviar el formulario.");
     }
 }
