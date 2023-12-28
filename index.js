@@ -84,3 +84,4 @@ document.getElementById('instagram-chat').addEventListener('click', function() {
     window.open('https://ig.me/m/tarot_centaura', '_blank');
     // o realizar alguna otra acción.
 });
+
