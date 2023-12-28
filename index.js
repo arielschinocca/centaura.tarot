@@ -48,24 +48,3 @@ document.getElementById('instagram-chat').addEventListener('click', function() {
     // o realizar alguna otra acción.
 });
 
-
-function enviarFormulario() {
-    let nombre = document.getElementById("nombre").value;
-    let telefono = document.getElementById("telefono").value;
-    let email = document.getElementById("email").value;
-    let mensaje = document.getElementById("mensaje").value;
-
-    if (nombre && telefono && email && mensaje) {
-      // Aquí podrías enviar los datos del formulario a tu servidor o realizar otras acciones necesarias
-
-      // Redirigir a la página de agradecimiento
-        window.location.href = "https://tarotcentaura.com.ar/paginaGracias/gracias.html";
-
-      // Después de 2 segundos, redirigir de nuevo a la página principal
-        setTimeout(function() {
-        window.location.href = "https://tarotcentaura.com.ar/";
-        }, 2000);
-    } else {
-        alert("Por favor, completa todos los campos antes de enviar el formulario.");
-    }
-}
