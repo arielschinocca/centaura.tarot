@@ -473,11 +473,49 @@ font-family: copperplate;
 }
 
 .card1{
-    background-image:url(./img/logoNuevo.jpeg);
+    background-image:url(./img/tarotrider.avif);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+.card2{
+    background-image:url(./img/reiki.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image:url(./img/medita.webp);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card4{
+    background-image:url(./img/acompaña.avif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card5{
+    background-image:url(./img/registros.avif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card6{
+    background-image:url(./img/sanacion.avif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
+
 
 
 /* SECCION RESUMEN*/
