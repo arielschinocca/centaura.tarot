@@ -55,7 +55,6 @@ html{
 
 body {
     background-image: url(./img2/cielo-estrellado.jpg); /* Ruta de tu imagen de fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
 }
 
 /*Seccion inicio*/
