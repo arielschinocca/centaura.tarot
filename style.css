@@ -11,6 +11,8 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Navabar con logo*/
+
 #instagram-chat {
     position: fixed;
     right: 10px;
@@ -55,7 +57,9 @@ h1{
     text-align: center;
     color: #535151;
 }
+
 /*Seccion inicio*/
+
 .inicio{
     position: relative;
     background-size: cover;
@@ -300,9 +304,6 @@ font-family: copperplate;
     color: white;
 }
 
-/*SECCION SOBRE MI CAMINO */
-
-
 /*SECCION IMAGEN Y TEXTO*/
 
 .imagen-texto{
@@ -349,7 +350,6 @@ font-family: copperplate;
     padding: 5%;
     font-size: medium;
 }
-
 
 
 /*SECCION SOBRE MI*/
@@ -409,6 +409,8 @@ font-family: copperplate;
     font-weight: bold;
     margin: 8px 0;
 }
+
+/*Tarjetas*/
 
 .wrap{
     display: inline-block;
@@ -512,142 +514,6 @@ font-family: copperplate;
     background-repeat: no-repeat;
 }
 
-
-
-
-
-/* SECCION RESUMEN*/
-
-.resumen{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/imgTarot3.jpg");
-    padding: 140px 0 100px 0;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.resumen .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.resumen .contenido-seccion h3{
-    font-family: copperplate;
-    font-size: 30px;
-}
-.resumen .contenido-seccion .info{
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.resumen .contenido-seccion .info .col{
-    width: 45%;
-}
-.resumen .contenido-seccion .info .col .titulo{
-    display: inline-block;
-    color: #940253;
-    font-weight: bold;
-    border: 2px solid #940253;
-    padding: 10px;
-}
-.resumen .contenido-seccion .info .col table{
-    margin-top: 30px;
-    border-collapse: collapse;
-}
-.resumen .contenido-seccion .info .col table .datos{
-    width: 40%;
-    border-bottom: 1px solid #bababa;
-}
-.resumen .contenido-seccion .info .col table h4{
-    margin-top: 10px;
-}
-.resumen .contenido-seccion .info .col table h3{
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-.resumen .contenido-seccion .info .col table p{
-    font-size: 14px;
-}
-.resumen .contenido-seccion .info .col table .promedio{
-    display: block;
-    color: #940253;
-    margin-top: 10px;
-    font-weight: bold;
-}
-.resumen .contenido-seccion .info .col table .descripcion{
-    border-left: 1px solid #bab9b9;
-    padding-left: 20px;
-}
-
-
-.sobremi2{
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/imgTarot3.jpg");
-    padding: 140px 0 100px 0;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 140px 0 100px 0;
-    text-align: center;
-    padding: 150px 0 150px 0;
-    
-}
-.sobremi2 .contenido-seccion2{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.sobremi2 .contenido-seccion2 h3{
-    text-transform: uppercase;
-    font-size: 30px;
-    max-width: 100%;
-    color: white;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/imgTarot3.jpg");
-    padding: 140px 0 100px 0;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-.sobremi2 .contenido-seccion2 .especial2{
-    color: purple;
-    font-weight: bold;
-    margin-top: 15px;
-}
-.sobremi2 .contenido-seccion2 p{
-    max-width: 700px;
-    margin: auto;
-    color: #141414;
-}
-.sobremi2 .contenido-seccion2 .fila2{
-    display: flex;
-    margin-top: 30px;
-    justify-content: space-between;
-}
-.sobremi2 .contenido-seccion2 .fila2 .col2{
-    width: 30%;
-}
-.sobremi .contenido-seccion .fila2 .col2 {
-    color: purple;
-    display: inline-block;
-    width: 10px;
-    height: 40px;
-    border: 2px solid purple;
-    line-height: 40px;
-    border-radius: 50%;
-    max-width: 100px;
-}
-.fila2 .col2 img{
-    padding: 2px;
-    max-width: 150px;
-    max-height: 150px;
-    border: 2px solid black;
-
-}
 
 /*FORMULARIO*/
 
