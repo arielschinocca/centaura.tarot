@@ -50,7 +50,6 @@ html{
 
 body {
     background-image: url(./img/cielo-estrellado.jpg); /* Ruta de tu imagen de fondo */
-    background-repeat: no-repeat;
 }
 
 h1{
@@ -520,6 +519,7 @@ font-family: copperplate;
 /*FORMULARIO*/
 
 .formu{
+        background-image: url(./img/cielo-estrellado.jpg);
         max-width: 1000px;
         background-color: #000;
         margin: auto;
