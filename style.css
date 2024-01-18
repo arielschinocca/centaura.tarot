@@ -50,6 +50,7 @@ html{
 
 body {
     background-image: url(./img/cielo-estrellado.jpg); /* Ruta de tu imagen de fondo */
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -259,6 +260,7 @@ font-family: copperplate;
     font-size: 3rem;
     letter-spacing: 5px;
     color: white;
+    background-image: url(./img/cielo-estrellado.jpg);
 }
 .inicio2 .contenido-seccion2 .info2 h2{
     font-weight: normal;
@@ -590,6 +592,7 @@ textarea{
 }
 
 /* SECCION RESPONSIVE*/
+
 @media screen and (max-width:1200px){
     .header img{
         width: 130px;
@@ -671,22 +674,19 @@ textarea{
     }
 
     .sobremicamino .contenido-seccion2{
-        max-width: 95%;
+        max-width: 93%;
     }
 
     .sobremi .contenido-seccion {
-        max-width: 95%;
-    }
-
-    .imagen-texto{
-        max-width: 75%;
+        max-width: 93%;
     }
 
     .imagenMia{
         padding: 30px;
         z-index: 4;
     }
-    .sobremicamino .contenido-seccion2 .especial2-1{
+
+    .especial2-1{
         font-size: 20px;
 
     }
@@ -761,10 +761,10 @@ textarea{
         max-width: 100%;
     }
     .imagen-texto{
-        max-width: 95%;
+        max-width: 93%;
     }
     .formu{
-        max-width: 95%;
+        max-width: 93%;
     }
     #formulario{
         padding: 0;
