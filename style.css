@@ -87,7 +87,7 @@ font-family: copperplate;
 
 .inicio .contenido-seccion header nav{
     position: fixed;
-    margin-left: 60px;
+    margin-left: -5px;
     background-color: #efaaaa;
     padding: 15px;
     border-radius: 10px;
