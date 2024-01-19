@@ -309,7 +309,7 @@ font-family: copperplate;
 
 .imagen-texto{
     margin-top: auto;
-    max-width: 1000px;
+    max-width: 700px;
     background-color: #000;
     margin: auto;
     border: 2px solid white;
@@ -360,7 +360,7 @@ font-family: copperplate;
     text-align: center;
 }
 .sobremi .contenido-seccion{
-    max-width: 1000px;
+    max-width: 700px;
     background-color: #000;
     margin: auto;
     padding: 0 10px;
@@ -416,7 +416,7 @@ font-family: copperplate;
 .wrap{
     display: inline-block;
     text-align: center;
-    max-width: 1000px;
+    max-width: 700px;
     margin-top: 10px;
     justify-content: space-between;
 }
@@ -520,7 +520,7 @@ font-family: copperplate;
 
 .formu{
         background-image: url(./img/cielo-estrellado.jpg);
-        max-width: 1000px;
+        max-width: 700px;
         background-color: #000;
         margin: auto;
         padding: 0 10px;
