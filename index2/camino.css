@@ -722,6 +722,9 @@ textarea{
 .contacto .contenido-seccion .div-instagram .instagram h2{
     color: #c58b8b;
 }
+.fa-brands{
+    color: rgb(212, 100, 253);
+}
 
 /* SECCION RESPONSIVE*/
 @media screen and (max-width:800px){
