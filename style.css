@@ -46,10 +46,12 @@ html{
     transform: scale(1.1); /* Efecto de escala al hacer hover */
 }
 
-/*seccion header*/
-
-body {
-    background-image: url(./img/cielo-estrellado.jpg); /* Ruta de tu imagen de fondo */
+#particles-js{
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
 }
 
 h1{
@@ -566,7 +568,6 @@ textarea{
 /* SECCION CONTACTO*/
 
 .contacto{
-    background-color: #0c0b0b;
     padding: 140px 0 100px 0;
     color: rgb(250, 246, 246);
     text-align: center;
@@ -588,7 +589,7 @@ textarea{
     margin-top: 50px;
 }
 .contacto .contenido-seccion .div-instagram .instagram h2{
-    color: #c58b8b;
+    color: #f50b0b;
 }
 
 /* SECCION RESPONSIVE*/
