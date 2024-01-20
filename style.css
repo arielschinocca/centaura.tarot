@@ -46,6 +46,8 @@ html{
     transform: scale(1.1); /* Efecto de escala al hacer hover */
 }
 
+/*EFECTO LLUVIA DE NIEVE*/
+
 #particles-js{
     background-color: #000;
     position: fixed;
