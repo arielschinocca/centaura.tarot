@@ -144,6 +144,11 @@ font-family: copperplate;
     letter-spacing: 2px;
     color: #bd9d9d;
 }
+.inicio .contenido-seccion .info h3{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
 .header .contenido-seccion .info .redes{
     margin: 20px 0;
 }
@@ -267,6 +272,10 @@ font-family: copperplate;
     margin-top: -10px;
     letter-spacing: 2px;
     color: #bd9d9d;
+}
+.inicio .contenido-seccion .info h3{
+    font-size: 25px;
+    margin-top: 10px;
 }
 .header2 .contenido-seccion2 .info2 .redes2{
     margin: 20px 0;
