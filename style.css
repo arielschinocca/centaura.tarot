@@ -600,7 +600,7 @@ textarea{
 
 /* SECCION RESPONSIVE*/
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:600px){
 
     #particles-js{
         background-color: #000;
