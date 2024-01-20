@@ -80,6 +80,7 @@ h1{
 }
 .inicio .contenido-seccion header{
     padding: 30px;
+    margin-left: 70px;
 }
 h1{
 font-family: copperplate;
@@ -89,7 +90,7 @@ font-family: copperplate;
 
 .inicio .contenido-seccion header nav{
     position: fixed;
-    margin-left: -5px;
+    margin-left: -10px;
     background-color: #efaaaa;
     padding: 15px;
     border-radius: 10px;
@@ -602,7 +603,9 @@ textarea{
 
 /* SECCION RESPONSIVE*/
 
-@media screen and (max-width:600px){
+
+
+@media screen and (max-width:768px){
 
     #particles-js{
         background-color: #000;
@@ -612,6 +615,7 @@ textarea{
         top: 0;
         z-index: -1;
     }
+    
     .header img{
         width: 130px;
         height: 130px;
