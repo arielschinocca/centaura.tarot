@@ -526,11 +526,25 @@ h4{
     background-repeat: no-repeat;
 }
 
+/*Video Youtube*/
+
+.videoTiktok{
+    padding: 10px 0 100px 0;
+    text-align: center;
+}
+
+.video{
+    margin-top: auto;
+    max-width: 700px;
+    background-color: #000;
+    margin: auto;
+    border: 2px solid white;
+    position: relative;
+}
 
 /*FORMULARIO*/
 
 .formu{
-        background-image: url(./img/cielo-estrellado.jpg);
         max-width: 700px;
         background-color: #000;
         margin: auto;
@@ -791,6 +805,9 @@ textarea{
         max-width: 93%;
     }
     .formu{
+        max-width: 93%;
+    }
+    .videoTiktok{
         max-width: 93%;
     }
     #formulario{
