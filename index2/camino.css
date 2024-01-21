@@ -76,16 +76,14 @@ body {
 }
 .inicio .contenido-seccion header{
     padding: 30px;
-}
-h1{
-font-family: copperplate;
+    margin-left: 70px;
 }
 
 /*menu lateral*/
 
 .inicio .contenido-seccion header nav{
     position: fixed;
-    margin-left: 60px;
+    margin-left: -10px;
     background-color: #efaaaa;
     padding: 15px;
     border-radius: 10px;
@@ -133,9 +131,8 @@ font-family: copperplate;
     padding-bottom: 130px;
 }
 .inicio .contenido-seccion .info h1{
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: white;
+    font-size: 30px;
+    margin-top: 10px;
 }
 .inicio .contenido-seccion .info h2{
     font-weight: normal;
@@ -145,8 +142,10 @@ font-family: copperplate;
     color: #bd9d9d;
 }
 .inicio .contenido-seccion .info h3{
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: white;
+    font-family: copperplate;
 }
 
 .header .contenido-seccion .info .redes{
@@ -262,9 +261,8 @@ font-family: copperplate;
     padding-bottom: 130px;
 }
 .inicio2 .contenido-seccion2 .info2 h1{
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: white;
+    font-size: 25px;
+    margin-top: 10px;
 }
 .inicio2 .contenido-seccion2 .info2 h2{
     font-weight: normal;
@@ -273,9 +271,12 @@ font-family: copperplate;
     letter-spacing: 2px;
     color: #bd9d9d;
 }
-.inicio .contenido-seccion .info h3{
-    font-size: 25px;
-    margin-top: 10px;
+.inicio2 .contenido-seccion2 .info2 h3{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    color: white;
+    font-family: copperplate;
+    margin: 20px;
 }
 .header2 .contenido-seccion2 .info2 .redes2{
     margin: 20px 0;
@@ -736,7 +737,7 @@ textarea{
 }
 
 /* SECCION RESPONSIVE*/
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
 
     #particles-js{
         background-color: #000;

@@ -57,7 +57,7 @@ html{
     z-index: -1;
 }
 
-h1{
+h4{
     color: white;
     text-align: center;
     color: #535151;
@@ -82,9 +82,7 @@ h1{
     padding: 30px;
     margin-left: 70px;
 }
-h1{
-font-family: copperplate;
-}
+
 
 /*menu lateral*/
 
@@ -138,20 +136,22 @@ font-family: copperplate;
     padding-bottom: 130px;
 }
 .inicio .contenido-seccion .info h1{
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: copperplate;
 }
 .inicio .contenido-seccion .info h2{
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 10px;
     letter-spacing: 2px;
     color: #bd9d9d;
 }
 .inicio .contenido-seccion .info h3{
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    color: white;
+    font-family: copperplate;
 }
 .header .contenido-seccion .info .redes{
     margin: 30px 0;
@@ -208,9 +208,6 @@ font-family: copperplate;
 .inicio2 .contenido-seccion2 header{
     padding: 30px;
 }
-h1{
-font-family: copperplate;
-}
 
 /*menu lateral2*/
 
@@ -266,9 +263,8 @@ font-family: copperplate;
     padding-bottom: 130px;
 }
 .inicio2 .contenido-seccion2 .info2 h1{
-    font-size: 3rem;
-    letter-spacing: 5px;
-    color: white;
+    font-size: 25px;
+    margin-top: 10px;
 }
 .inicio2 .contenido-seccion2 .info2 h2{
     font-weight: normal;
@@ -277,9 +273,12 @@ font-family: copperplate;
     letter-spacing: 2px;
     color: #bd9d9d;
 }
-.inicio2 .contenido-seccion .info h3{
-    font-size: 25px;
-    margin-top: 10px;
+.inicio2 .contenido-seccion2 .info2 h3{
+    font-size: 2rem;
+    letter-spacing: 5px;
+    color: white;
+    font-family: copperplate;
+    margin: 20px;
 }
 .header2 .contenido-seccion2 .info2 .redes2{
     margin: 20px 0;
