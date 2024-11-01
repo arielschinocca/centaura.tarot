@@ -1,352 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="lW7W-dYsEx0qxV70EwymbAuTw7J5XuP21m8LePB5s8U" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Tarot</title>
+    <title>Tarot Centaura</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tarot">
+    <meta property="og:description">
+    <meta property="twitter:title" content="Tarot Centaura">
 </head>
-<!-- Navbar con logo -->
-<div id="instagram-chat">
-    <a href="https://ig.me/m/tarot_centaura" target="_blank">
-        <img src="./img/instagram (1).png" alt="">
-        <p class="hablame">Hablame!!</p>
-    </a>
-</div>
+
 <body>
-    <!--EFECTO LLUVIA DE NIEVE-->
-    <div id="particles-js"></div>
-    
-    <!--Seccion inicio-->
-    <section class="inicio" id="inicio">
-        <div class="contenido-seccion">
-            <header>
-                <div class="nav-bar" onclick="mostrarOcultarMenu()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <nav id="nav" class="nav">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#sobremi">Mi Camino</a>
-                    <a href="#habilidades">Servicios</a>
-                    <a href="#contacto">Contacto</a>
-                </nav>
-                <div class="logo">
-                    T<span class="color">C</span>
-                </div>
-            </header>
-            <div data-aos="fade-down" class="info">
-                <h3>TAROT CENTAURA</h3>
-                <h2>Tarot, Reiki, Meditacion guiada, Registros Akashicos, Rito Sagrado sanacion del utero</h2>
-                <h1>Servicio De Tarot Terapeutico</h1>
-                
-                
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Tarot Centaura</h2>
             </div>
-        </div>
-    </section>
 
-    <!--Seccion inicio 2-->
-    <section class="inicio2" id="inicio2">
-        <div class="contenido-seccion2">
-            <header>
-                <div class="nav-bar2" onclick="mostrarOcultarMenu2()">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-                <nav id="nav2" class="nav2">
-                    <a href="#sobremi">Mi Camino</a>
-                    <a href="#habilidades">Servicios</a>
-                    <a href="#contacto">Contacto</a>
-                </nav>
-                <div class="logo2">
-                    T<span class="color2">C</span>
-                </div>
-            </header>
-            <div data-aos="fade-down" class="info2">
-                <h3>TAROT CENTAURA</h3>
-                <h2>Tarot, Reiki, Meditacion guiada, Registros Akashicos, Rito Sagrado sanacion del utero</h2>
-                <h1>Servicio De Tarot Terapeutico</h1>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de mi</a>
+                </li>
+                <li class="nav__items">
+                    <a href=" https://wa.me/1126975738" class="nav__links">Contacto</a>
+                </li>
+
+
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
             </div>
-        </div>
-    </section>
+        </nav>
 
+        <section class="hero__container container">
+            <h1 class="hero__title">Tarot Terapeutico</h1>
+            <p class="hero__paragraph">Bienvenido a nuestro tarot terapéutico, donde unimos la sabiduría del tarot con sanación emocional. Te ofrezco lecturas personalizadas para explorar inquietudes, aclarar decisiones y fomentar el autoconocimiento. Empodérate en tu camino personal y descubre nuevas oportunidades. ¡Unite a este viaje de transformación!.</p>
+            <a href=" https://wa.me/1126975738" class="cta">Solicita tu turno ahora</a>
+        </section>
+    </header>
 
-    <!--SECCION IMAGEN Y TEXTO-->
-    <h4>Haga Click En La Imagen</h4>
-    <section data-aos="fade-up" class="imagen-texto" id="sobremi">
-        <div  class="contenedor-imagen-texto">
-            <div class="imagenMia">
-                <a href="http://tarotcentaura.com.ar/index2/camino.html"><img src="./img/fototarjeta.jpeg" alt="" ></a>
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Queres saber mas sobre el tarot y sus beneficios?</h2>
+            <p class="about__paragraph">En este espacio te voy a brindar las claves para poder sacar el maximo provecho a al tarot terapeutico</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/check.svg" class="about__icon">
+                    <h3 class="about__title">Que preguntar?</h3>
+                    <p class="about__paragrah">Preguntas sobre tu vida emocional, relaciones o decisiones importantes son ideales. El tarot puede ofrecerte una nueva perspectiva y ayudarte a clarificar tus pensamientos.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/no-ok.svg" class="about__icon">
+                    <h3 class="about__title">Que NO preguntar</h3>
+                    <p class="about__paragrah">Evita preguntas sobre temas de salud, finanzas o eventos específicos. El tarot no sustituye el consejo profesional y se centra en ofrecerte guía y reflexión, no respuestas absolutas.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/lampara.svg" class="about__icon">
+                    <h3 class="about__title">Consejos para tu lectura</h3>
+                    <p class="about__paragrah">Mantén una mente abierta y dispuesta a recibir lo que el tarot tiene para ofrecer. Reflexiona sobre tus emociones y experiencias previas para aprovechar al máximo cada lectura.</p>
+                </article>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--SECCION SOBRE MI-->
-    <section data-aos="fade-up" class="sobremi" id="habilidades">
-            <div class="contenido-seccion">
-                <h3 class="titulo-seccion">Mis Servicios</h3>
-                <div class="titulo-seccion-servicios">
-            </div> <!--Tarjetas-->
-            <div class="wrap">
-                <div class="tarjeta-wrap"><h4>Tarot</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card1"></div>
-                        <div class="atras">
-                    <p>El tarot, un fascinante sistema de cartas con significados simbólicos, se ha convertido en una herramienta popular para la reflexión personal y la búsqueda de orientación espiritual. En nuestro mazo de 78 cartas, los Arcanos Mayores exploran conceptos más profundos, mientras que los Arcanos Menores abordan aspectos cotidianos.
-                        Descubre el mundo fascinante del tarot, donde las cartas se convierten en un espejo que refleja aspectos de tu vida, brindándote perspectivas únicas y orientación para tu viaje personal. ¡Explora el misterio del tarot y desbloquea las respuestas que buscas!</p>
-                        </div>
-                    </div>
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">El tarot terapéutico ofrece valiosas perspectivas en áreas fundamentales de la vida, como las relaciones amorosas, la estabilidad económica y la búsqueda de significado existencial</h2>
+                    <p class="knowledge__paragraph">A través de sus símbolos y arquetipos, el tarot nos invita a reflexionar sobre nuestras experiencias y emociones, facilitando el autoconocimiento y el crecimiento personal. Cada lectura se convierte en una oportunidad para explorar nuestras inquietudes y encontrar un camino más claro hacia el bienestar integral.</p>
+                    <a href=" https://wa.me/1126975738" class="cta">Pedime ahora mismo un turno y descubri la magia</a>
                 </div>
-                <div class="tarjeta-wrap"><h4>Reiki</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card2"></div>
-                        <div class="atras">
-                    <p>El Reiki, un antiguo arte de sanación basado en la canalización de energía universal, ofrece un camino hacia el equilibrio y el bienestar. En esta práctica, los practicantes canalizan la energía a través de sus manos para promover la sanación física, emocional y espiritual.
-                        Descubre el poder curativo del Reiki, donde la energía fluye para desbloquear y armonizar tu ser. En nuestras sesiones, experimentarás una conexión profunda con la energía universal, permitiendo la liberación de tensiones y la restauración de la armonía interior.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-wrap"><h4>Meditaciones guiadas</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card3"></div>
-                        <div class="atras">
-                    <p>Las meditaciones guiadas te ofrecen un viaje hacia la paz interior y el equilibrio mental. Descubre un espacio de serenidad donde la voz guía te lleva a explorar tu mente y encontrar calma en el caos diario.
 
-                        Explora nuestras meditaciones guiadas diseñadas para aliviar el estrés, promover la relajación y cultivar la claridad mental. Cada sesión es una invitación a desconectar, respirar profundamente y conectarte contigo mismo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-wrap"><h4>Sesiones de acompañamiento en momentos de crisis</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card4"></div>
-                        <div class="atras">
-                    <p>En momentos desafiantes, las sesiones de acompañamiento ofrecen un refugio seguro para explorar emociones y encontrar fortaleza interior. Descubre un espacio donde puedes compartir tus experiencias y recibir apoyo mientras navegas a través de los desafíos.
-
-                        Nuestras sesiones de acompañamiento están diseñadas para proporcionar un oído comprensivo y orientación práctica. Nos comprometemos a brindarte el apoyo necesario para superar crisis, cultivar la resiliencia y encontrar caminos hacia la recuperación.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-wrap"><h4>Registros Akashicos</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card5"></div>
-                        <div class="atras">
-                    <p>Los Registros Akáshicos son una ventana a la sabiduría universal y una herramienta para la sanación profunda. Descubre un espacio donde puedes acceder a la información y las lecciones que tu alma necesita para evolucionar.
-
-                        Explora nuestras sesiones de Registros Akáshicos, donde un guía experimentado te ayudará a abrir este libro sagrado de tu alma. Descubre respuestas a preguntas profundas, desafíos recurrentes y patrones que afectan tu vida..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-wrap"><h4>Rito Sagrado, Sanacion del utero</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card6"></div>
-                        <div class="atras">
-                    <p>umérgete en el sagrado arte de la sanación del útero, un rito ancestral que ofrece un espacio para el rejuvenecimiento y la restauración. Descubre un camino hacia la sanación profunda que honra la conexión entre tu cuerpo y tu esencia femenina.
-
-                        Nuestras sesiones de Rito Sagrado te guiarán a través de prácticas que nutren y equilibran tu útero, permitiéndote liberar energías estancadas y promoviendo la armonía en tu ser. Este rito se centra en el respeto por la sabiduría femenina y la conexión con la energía creadora.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="tarjeta-wrap"><h4>Barra De Access</h4>
-                    <div class="tarjeta">
-                        <div class="adelante card7"></div>
-                        <div class="atras">
-                    <p>La terapia de la Barra de Access es una técnica innovadora que aborda problemas emocionales y traumas mediante movimientos oculares específicos. Durante la sesión, el terapeuta guía al paciente para acceder a recuerdos y emociones almacenadas en el cerebro, lo que puede llevar a una liberación emocional y un mayor bienestar. Esta modalidad ofrece una forma única de abordar y procesar experiencias difíciles, promoviendo el equilibrio emocional y el crecimiento personal</p>
-                        </div>
-                    </div>
-                </div>
+                <figure class="knowledge__picture">
+                    <img src="./images/fototarjeta2.png" class="knowledge__img">
+                </figure>
             </div>
-    </section>
+        </section>
 
-    <!--Video Youtube-->
-    <section data-aos="zoom-in" class="videoTiktok">
-        <div class="video">
-            <div class="img-video"><blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tarot_centaura/video/7322250994622942470" data-video-id="7322250994622942470" style="max-width: 605px;min-width: 300px;" > <section> <a target="_blank" title="@tarot_centaura" href="https://www.tiktok.com/@tarot_centaura?refer=embed">@tarot_centaura</a> <a title="tarot" target="_blank" href="https://www.tiktok.com/tag/tarot?refer=embed">#tarot</a> <a title="tarotreading" target="_blank" href="https://www.tiktok.com/tag/tarotreading?refer=embed">#tarotreading</a> <a title="mitosyverdades" target="_blank" href="https://www.tiktok.com/tag/mitosyverdades?refer=embed">#mitosyverdades</a> <a title="tarotreader" target="_blank" href="https://www.tiktok.com/tag/tarotreader?refer=embed">#tarotreader</a>  <a title="tarothumor" target="_blank" href="https://www.tiktok.com/tag/tarothumor?refer=embed">#tarothumor</a> <a title="tarotistasdetiktok" target="_blank" href="https://www.tiktok.com/tag/tarotistasdetiktok?refer=embed">#tarotistasdetiktok</a> <a title="viral" target="_blank" href="https://www.tiktok.com/tag/viral?refer=embed">#viral</a> <a title="parati" target="_blank" href="https://www.tiktok.com/tag/parati?refer=embed">#parati</a> <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="tarotcentaura" target="_blank" href="https://www.tiktok.com/tag/tarotcentaura?refer=embed">#tarotcentaura</a> <a target="_blank" title="♬ Si puedo y lo he hecho varias veces - ✨ House of Dragas ✨" href="https://www.tiktok.com/music/Si-puedo-y-lo-he-hecho-varias-veces-7257407711074093867?refer=embed">♬ Si puedo y lo he hecho varias veces - ✨ House of Dragas ✨</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para vos</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Promo1</p>
+                    <h3 class="price__price">Tarot Terapeutico</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Preguntas ilimitadas</p>
+                        <p class="price__features">1 hora por sesion</p>
+                    </div>
+
+                    <a href=" https://wa.me/1126975738" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Promo2</p>
+                    <h3 class="price__price">Tarot terapeutico + Barra de access </h3>
+
+                    <div class="price__items">
+                        <p class="price__features">1 hora de tarot 5 dias a la semana</p>
+                        <p class="price__features">preguntas ilimitadas + 2 seciones de barras de access</p>
+                    </div>
+
+                    <a href=" https://wa.me/1126975738" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Promo3</p>
+                    <h3 class="price__price">barra de access</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">2 sesiones de barra de access mensuales</p>
+                        <p class="price__features">1 hora</p>
+                    </div>
+
+                    <a href=" https://wa.me/1126975738" class="price__cta">Empieza ahora</a>
+                </div>
+
+
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--FORMULARIO-->
-    <section  data-aos="fade-up"
-    data-aos-duration="3000" class="formu">
-        <div id="formulario">
-            <form action="https://formsubmit.co/arielschinocca4@gmail.com" method="POST">
-                <label for="name">Nombre</label>
-                <input type="text" class="campo" name="Nombre" id="nombre" required><br/>
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="./images/flecha-izq.svg" class="testimony__arrow" id="before">
 
-                <label>telefono</label>
-                <input type="text" class="campo" name="telefono" id="telefono" required><br/>
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonios <!--<span class="testimony__course">......</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
+                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p> -->
+                    </div>
 
-                <label>email</label>
-                <input type="email" class="campo" name="email" id="email" required><br/>
+                    <figure class="testimony__picture">
+                        <img src="./images/consultante4.jpeg" class="testimony__img">
+                    </figure>
+                </section>
 
-                <label>Mensaje</label>
-                <textarea  name="Mensaje" cols="30" rows="10" id="mensaje" required></textarea>
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonios <!-- <span class="testimony__course">estudiante de
+                                CSS.</span></h2>
+                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                            voluptatum!</p>-->
+                    </div>
 
-                <input type="submit" value="Enviar">
+                    <figure class="testimony__picture">
+                        <img src="./images/consultante1.jpeg" class="testimony__img">
+                    </figure>
+                </section>
 
-                <input type="hidden" name="_next" id="mensaje" value="https://tarotcentaura.com.ar/">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_autoresponse" value="Gracias por contactarme, en breve me communicare con vos">
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonios <!-- <span class="testimony__course">estudiante de
+                            CSS.</span></h2>
+                    <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                        esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                        voluptatum!</p>-->
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/consultante2.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Testimonios<!-- <span class="testimony__course">estudiante de
+                            CSS.</span></h2>
+                    <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
+                        esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
+                        voluptatum!</p>-->
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/consultante3.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/flecha-der.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+            <p class="questions__paragraph">Aquí encontrarás respuestas a las preguntas más comunes sobre el tarot terapéutico. Nuestro objetivo es ofrecerte claridad y confianza en este camino de autoconocimiento.</p>
+
+            <section class="questions__container">
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué es el tarot terapéutico?
+                            <span class="questions__arrow">
+                                <img src="./images/click2.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">El tarot terapéutico es una herramienta de autoconocimiento que combina la sabiduría del tarot con un enfoque emocional. A través de las cartas, podemos explorar tus inquietudes y ofrecerte nuevas perspectivas sobre tus desafíos y oportunidades.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Cómo puedo prepararme para una lectura?
+                            <span class="questions__arrow">
+                                <img src="./images/click2.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Para aprovechar al máximo tu lectura, te sugerimos que te tomes un momento para reflexionar sobre tus preguntas y emociones. Mantén una mente abierta y dispuesta a recibir lo que el tarot tiene para ofrecerte. Esto enriquecerá tu experiencia y facilitará el proceso de autodescubrimiento.</p>
+                    </div>
+                </article>
+
+                <article class="questions__padding">
+                    <div class="questions__answer">
+                        <h3 class="questions__title">¿Qué temas puedo abordar en una lectura?
+                            <span class="questions__arrow">
+                                <img src="./images/click2.svg" class="questions__img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Puedes explorar una amplia gama de temas, incluyendo relaciones personales, desafíos profesionales y la búsqueda de significado en tu vida. El tarot puede ofrecerte orientación y claridad en momentos de incertidumbre, ayudándote a tomar decisiones alineadas con tu verdadero yo.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section class="questions__offer">
+                <h2 class="subtitle">¿Estas listo para emprender este camino ?</h2>
+                <p class="questions__copy">La transformación y el autoconocimiento están al alcance de tu mano. Si sientes la llamada de este viaje, te invito a dar el primer paso. Juntos, podemos explorar las oportunidades que te esperan y ayudarte a encontrar el camino que resuena con tu esencia.</p>
+                <a href=" https://wa.me/1126975738" class="cta">Reserva una cita conmigo ahora</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Tarot Centaura</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href=" https://wa.me/1126975738" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Redes Sociales</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/xjvnbnwg" method="POST">
+                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
             </form>
-        </div>
-    </section>
+        </section>
 
-    <!-- SECCION CONTACTO-->
-    <section  class="contacto" id="contacto">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="contenido-seccion">
-            <h2 class="titulo-seccion">Redes sociales</h2>
-            <h3>Seguime en mis Redes Sociales</h3>
-
-            <div class="div-instagram">
-                <div class="instagram">
-                    <h2>
-                        <a href="https://www.tiktok.com/@xuxa.love"><i class="fa-brands fa-tiktok"></i></a>
-                    </h2>
-                    <span class="info-contacto"></span>
-                </div>
-                <div class="instagram">
-                    <h2>
-                        <a href="https://www.instagram.com/tarot_centaura/"><i class="fa-brands fa-instagram"></i></a>
-                    </h2>
-                    <span class="info-contacto"></span>
-                </div>
-                <div class="instagram">
-                    <h2>
-                        <a href="https://www.youtube.com/@XUXA_love"><i class="fa-brands fa-youtube"></i></a>
-                    </h2>
-                    <span class="info-contacto"></span>
-                </div>
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <!--<a href="#" class="footer__icons"><img src="./images/facebook-logo.svg" class="footer__img"></a>-->
+                <a href="https://www.instagram.com/tarot_centaura/" class="footer__icons"><img src="./images/instagram.svg" class="footer__img"></a>
             </div>
-        </div>
-    </section>
-    
 
+            <h3 class="footer__copyright">Derechos reservados &copy; Celeste Navarro</h3>
+        </section>
+    </footer>
 
-
-    
-    <script src="index.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-        });
-    </script>
-    <script src="particles.min.js"></script>
-    <script>
-        particlesJS(
-            {
-    "particles": {
-        "number": {
-        "value": 400,
-        "density": {
-            "enable": true,
-            "value_area": 800
-        }
-        },
-        "color": {
-        "value": "#fff"
-        },
-        "shape": {
-        "type": "star",
-        "stroke": {
-            "width": 0,
-            "color": "#000000"
-        },
-        "polygon": {
-            "nb_sides": 12
-        },
-        "image": {
-            "src": "img/github.svg",
-            "width": 100,
-            "height": 100
-        }
-        },
-        "opacity": {
-        "value": 0.5,
-        "random": true,
-        "anim": {
-            "enable": false,
-            "speed": 1,
-            "opacity_min": 0.1,
-            "sync": false
-        }
-        },
-        "size": {
-        "value": 3.945738208161363,
-        "random": true,
-        "anim": {
-            "enable": false,
-            "speed": 40,
-            "size_min": 0.1,
-            "sync": false
-        }
-        },
-        "line_linked": {
-        "enable": false,
-        "distance": 500,
-        "color": "#ffffff",
-        "opacity": 0.4,
-        "width": 2
-        },
-        "move": {
-        "enable": true,
-        "speed": 6,
-        "direction": "bottom",
-        "random": false,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": false,
-        "attract": {
-            "enable": false,
-            "rotateX": 600,
-            "rotateY": 1200
-        }
-        }
-    },
-    "interactivity": {
-        "detect_on": "canvas",
-        "events": {
-        "onhover": {
-            "enable": true,
-            "mode": "bubble"
-        },
-        "onclick": {
-            "enable": true,
-            "mode": "repulse"
-        },
-        "resize": true
-        },
-        "modes": {
-        "grab": {
-            "distance": 400,
-            "line_linked": {
-            "opacity": 0.5
-            }
-        },
-        "bubble": {
-            "distance": 400,
-            "size": 4,
-            "duration": 0.3,
-            "opacity": 1,
-            "speed": 3
-        },
-        "repulse": {
-            "distance": 200,
-            "duration": 0.4
-        },
-        "push": {
-            "particles_nb": 4
-        },
-        "remove": {
-            "particles_nb": 2
-        }
-        }
-    },
-    "retina_detect": true
-}
-        )
-    </script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
+
 </html>
