@@ -684,4 +684,9 @@ body {
         width: 100%;
         */
     }
+    .footer__copyright{
+        font-size: 15px;
+        padding: 3px;
+        margin: 3px;
+    }
 }
