@@ -121,6 +121,16 @@ body {
     border-radius: 32px;
 }
 
+.cta2 {
+    display: inline-block;
+    background-color: #000;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+
 /* About */
 
 .about {
@@ -516,6 +526,8 @@ body {
         right: 30px;
         width: 30px;
         cursor: pointer;
+        background-color: #e5e5f7;
+        border-radius: 50%;
     }
 
     .hero__title{
@@ -557,8 +569,8 @@ body {
 
 
     .testimony__img{
-        width: 350px;
-        height: 350px;
+        width: 200px;
+        height: 200px;
         
     }
 
