@@ -30,12 +30,14 @@ body {
 
 .hero::before {
     content: "";
+    background-attachment: fixed;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/La\ muerte\ tarot\ Fondo\ para\ whatsapp.png');
+    background-position: center center;
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/fantasy-astral-wallpaper-composition.jpg');
     background-size:cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
