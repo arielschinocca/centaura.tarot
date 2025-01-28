@@ -37,7 +37,7 @@ body {
     width: 100%;
     height: 100%;
     background-position: center center;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/fantasy-astral-wallpaper-composition.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/DSC_0703.JPG');
     background-size:cover;
     z-index: -1;
 }
@@ -110,6 +110,7 @@ body {
 
 .hero__paragraph {
     margin-bottom: 20px;
+    background-color: rgb(0 0 0 / 5%)
 }
 
 .cta {
