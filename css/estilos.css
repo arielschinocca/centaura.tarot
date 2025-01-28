@@ -39,7 +39,6 @@ body {
     background-position: center center;
     background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../images/fantasy-astral-wallpaper-composition.jpg');
     background-size:cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
 }
 
@@ -187,11 +186,10 @@ body {
 /* Knowledge */
 
 .knowledge {
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
     overflow: hidden;
+    background-color: #e5e5f7;
 }
 
 .knowledge__container{
