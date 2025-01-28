@@ -90,6 +90,22 @@ body {
     display: var(--show, none);
 }
 
+/*Video-diferencias*/
+
+.video-diferencias{
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    overflow: hidden;
+    background-color: #e5e5f7;
+    
+}
+
+.video-container{
+ text-align: center;
+   
+}
+
+
 
 /* Hero container */
 
