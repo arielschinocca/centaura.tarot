@@ -103,7 +103,7 @@ video {
 .video-container {
     position: relative;
     width: 100%;  /* El contenedor ocupa todo el ancho disponible */
-    padding-top: 56.25%;  /* Relación 16:9 (9/16 = 0.5625, 56.25%) */
+    padding-top: 80%;  /* Relación 16:9 (9/16 = 0.5625, 56.25%) */
     height: 0;  /* Se establece a 0 para que el relleno sea el que determine la altura */
     overflow: hidden;
     min-width: 300px;  /* Establecer un ancho mínimo */
