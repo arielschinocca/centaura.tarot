@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 :root {
     --padding-container: 100px 0;
@@ -470,6 +475,19 @@ video {
     padding-bottom: 60px;
 }
 
+.nota-importante{
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: large;
+    border-color: 2px black;
+}
+
+.nota-importante:hover{
+    color: white;
+    background-color: #f50303;
+}
+
 .nav--footer{
     padding-bottom: 20px;
     display: grid;
@@ -574,6 +592,14 @@ video {
         border-radius: 50%;
     }
 
+    .hero {
+        height: auto;       /* Que el hero tenga altura natural según el contenido */
+        min-height: auto;   /* Quitar mínimo para que no corte */
+        max-height: none;   /* Sin máximo */
+        padding: 40px 20px; /* Algo de espacio para que no quede pegado */
+        display: block;     /* Quitar grid para que el texto fluya bien */
+    }
+
     .hero__title{
         font-size: 2.5rem;
     }
@@ -657,12 +683,43 @@ video {
 }
 
 @media (max-width:600px){
-    .hero__title{
-        font-size: 2rem;
+
+    .hero {
+        height: auto;       /* Que el hero tenga altura natural según el contenido */
+        min-height: auto;   /* Quitar mínimo para que no corte */
+        max-height: none;   /* Sin máximo */
+        padding: 40px 20px; /* Algo de espacio para que no quede pegado */
+        display: block;     /* Quitar grid para que el texto fluya bien */
+    }
+    .hero__container {
+        max-width: 100%;     /* Que ocupe todo el ancho disponible */
+        width: 95%;
+        padding: 10px 15px;  /* Padding interno controlado */
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1rem;     /* Tamaño legible */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    .hero__title {
+        font-size: 2rem;   /* Ajustar tamaño para móviles */
+        line-height: 1.2;
+        margin-bottom: 0.8em;
     }
 
-    .hero__paragraph{
+     .hero__paragraph {
         font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1.5em;
+        white-space: normal;  /* Para evitar que se corten palabras o líneas */
+    }
+
+    .cta {
+        padding: 12px 25px;
+        font-size: 1rem;
+        max-width: 100%;
+        box-sizing: border-box;
+        word-break: break-word;
     }
 
     .subtitle{
