@@ -225,6 +225,14 @@ video {
     width: 40px;
 }
 
+.about2 {
+    text-align: center;
+}
+
+.about__icon2 {
+    width: 250px;
+}
+
 /* Knowledge */
 
 .knowledge {
