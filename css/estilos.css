@@ -60,6 +60,10 @@ body {
 .nav__title {
     font-weight: 300;
 }
+.nav__title2{
+
+    display: none;
+}
 
 .nav__link {
     margin-left: auto;
@@ -683,7 +687,12 @@ video {
 }
 
 @media (max-width:600px){
-
+    .nav__title2{
+    display: inline;
+    }
+    .nav__title{
+    display: none;
+    }
     .hero {
         height: auto;       /* Que el hero tenga altura natural según el contenido */
         min-height: auto;   /* Quitar mínimo para que no corte */
@@ -705,6 +714,7 @@ video {
         font-size: 2rem;   /* Ajustar tamaño para móviles */
         line-height: 1.2;
         margin-bottom: 0.8em;
+        display: none;
     }
 
      .hero__paragraph {
@@ -712,6 +722,8 @@ video {
         line-height: 1.5;
         margin-bottom: 1.5em;
         white-space: normal;  /* Para evitar que se corten palabras o líneas */
+        margin: 1.5rem;
+        text-align: center;
     }
 
     .cta {
