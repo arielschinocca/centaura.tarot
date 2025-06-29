@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/form.css">
     <title>Document</title>
 </head>
 <body>
@@ -42,74 +42,35 @@
 
 <body>
     <main>
-        <section class="testimony">
-            <div class="testimony__container container">
-                <img src="./images/flecha-izq.svg" class="testimony__arrow" id="before">
-
-                <section class="testimony__body testimony__body--show" data-id="1">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Testimonios <!--<span class="testimony__course">......</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p> -->
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/consultante4.jpeg" alt="Lectura de tarot terapéutico en línea para sanación emocional"  class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="2">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Testimonios <!-- <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>-->
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/consultante1.jpeg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="3">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Testimonios <!-- <span class="testimony__course">estudiante de
-                            CSS.</span></h2>
-                    <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                        esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                        voluptatum!</p>-->
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/consultante2.jpeg" class="testimony__img">
-                    </figure>
-                </section>
-
-                <section class="testimony__body" data-id="4">
-                    <div class="testimony__texts">
-                        <h2 class="subtitle">Testimonios<!-- <span class="testimony__course">estudiante de
-                            CSS.</span></h2>
-                    <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                        esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                        voluptatum!</p>-->
-                    </div>
-
-                    <figure class="testimony__picture">
-                        <img src="./images/consultante3.jpeg" class="testimony__img">
-                    </figure>
-                </section>
-
-
-                <img src="./images/flecha-der.svg" class="testimony__arrow" id="next">
-            </div>
+        <section class="testimonios-nuevos container">
+            <h2 class="subtitle">Testimonios reales.</h2>
+            <div id="testimonios-nuevos" class="testimonios-dinamicos"></div>
         </section>
+
+        <footer>
+                <section class="formulario-testimonio container">
+                    <h2 class="subtitle">Dejá tu testimonio 💫</h2>
+                    <form id="form-testimonio" class="formulario-box">
+                        <textarea id="input-testimonio" placeholder="Contanos tu experiencia 😊" required></textarea>
+                        <input type="text" id="nombre" placeholder="Tu nombre (requerido)">
+                        <input type="text" id="instagram" placeholder="Tu Instagram (requerido)">
+                        <button type="submit" disabled>Enviar ✨</button>
+                    </form>
+                    <div id="mensaje-error" style="color: #f44336; margin-top: 0.5rem; display:none;"></div>
+</section>
+
+
+                <section id="testimonios-nuevos" class="testimonios-nuevos">
+                    <!-- Aquí se mostrarán los nuevos testimonios.. -->
+                </section>
+
+        </footer>
     </main>
 
     <script src="./js/slider.js"></script>
     <script src="./js/questions.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/form.js"></script>
 </body>
 
 </html>
