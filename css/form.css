@@ -1,0 +1,111 @@
+.testimonio-form-container {
+    background-color: #F6F2EB;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonio-form-container h2 {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.formulario-testimonio {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+.formulario-testimonio input,
+.formulario-testimonio textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: white;
+    color: #333;
+}
+
+.formulario-testimonio textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.formulario-testimonio button {
+    background-color: #E07C90;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario-testimonio button:hover {
+    background-color: #EBA9B6;
+}
+
+.formulario-testimonio button:active {
+    transform: scale(0.97);
+}
+.formulario-estrellas {
+  text-align: center;
+}
+
+.estrellas span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.estrellas span.seleccionada {
+  color: #E07C90;
+}
+.estrellas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.estrella {
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.estrella.seleccionada {
+  color: gold;
+}
+
+.testimonio-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.testimonio-texto {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonio-nombre {
+  font-weight: bold;
+  text-align: right;
+  color: #C9A44C;
+}
+
+.testimonio-estrellas {
+  text-align: center;
+  font-size: 1.2rem;
+  color: gold;
+  margin-top: 10px;
+}

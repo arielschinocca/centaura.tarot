@@ -42,27 +42,34 @@
 
 <body>
     <main>
-        <section class="testimonios-nuevos container">
-            <h2 class="subtitle">Testimonios reales.</h2>
-            <div id="testimonios-nuevos" class="testimonios-dinamicos"></div>
-        </section>
+<section class="testimonio-form-container">
+  <h2 class="subtitle">Dejá tu testimonio 💫</h2>
+  <form id="form-testimonio" class="formulario-testimonio">
+    <textarea id="input-testimonio" placeholder="Contanos tu experiencia 😊" required></textarea>
+    <input type="text" id="nombre" placeholder="Tu nombre (requerido)">
+    <input type="text" id="instagram" placeholder="Tu Instagram (opcional)">
 
-        <footer>
-                <section class="formulario-testimonio container">
-                    <h2 class="subtitle">Dejá tu testimonio 💫</h2>
-                    <form id="form-testimonio" class="formulario-box">
-                        <textarea id="input-testimonio" placeholder="Contanos tu experiencia 😊" required></textarea>
-                        <input type="text" id="nombre" placeholder="Tu nombre (requerido)">
-                        <input type="text" id="instagram" placeholder="Tu Instagram (requerido)">
-                        <button type="submit" disabled>Enviar ✨</button>
-                    </form>
-                    <div id="mensaje-error" style="color: #f44336; margin-top: 0.5rem; display:none;"></div>
+    <!-- Estrellas -->
+    <div class="estrellas">
+      <span class="estrella" data-value="1">★</span>
+      <span class="estrella" data-value="2">★</span>
+      <span class="estrella" data-value="3">★</span>
+      <span class="estrella" data-value="4">★</span>
+      <span class="estrella" data-value="5">★</span>
+    </div>
+
+    <button type="submit" disabled>Enviar ✨</button>
+    <div id="mensaje-error" style="color: #f44336; margin-top: 0.5rem; display:none;"></div>
+  </form>
+</section>
+
+<section class="testimonios-nuevos container">
+  <h2 class="subtitle">Testimonios reales</h2>
+  <div id="testimonios-nuevos" class="testimonios-dinamicos"></div>
 </section>
 
 
-                <section id="testimonios-nuevos" class="testimonios-nuevos">
-                    <!-- Aquí se mostrarán los nuevos testimonios.. -->
-                </section>
+
 
         </footer>
     </main>
