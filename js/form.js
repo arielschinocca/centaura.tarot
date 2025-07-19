@@ -11,7 +11,8 @@ const estrellas = document.querySelectorAll(".estrella");
 let puntuacion = 5;
 
 // URL base backend
-const API_URL = "https://pagina-testimonios.onrender.com/api/testimonios";
+const API_URL = "https://pagina-testimonios-backend.onrender.com/api/testimonios";
+
 
 // Estrellas: manejo de clic
 estrellas.forEach((estrella, index) => {
